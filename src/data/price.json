@@ -1,0 +1,59 @@
+{
+    "prices": [
+        {
+            "title": "Free",
+            "description": "Ideal for securing individual's incoming emails<br><br>",
+            "image": "images/prices/free.svg",
+            "price": "<span class='fs-1'>Free</span>",
+            "features": [
+                "<b>Alias Emails:</b>*10*",
+                "<b>Received Emails:</b>*Unlimited*",
+                "<b>Replied Emails:</b>*Unlimited*"
+            ],
+            "button": {
+                "type": "url",
+                "text": "Get Started",
+                "link": "https://duotail.com",
+                "notice": ""
+            }
+        },
+        {
+            "title": "Basic",
+            "description": "Perfect for individuals who seek full control over email privacy",
+            "image": "images/prices/basic.svg",
+            "price": "<span class='fs-1'>$10<span><span class='fs-3'>/mon</spa>",
+            "features": [
+                "<b>Identity Emails:</b>*1*",
+                "<b>Alias Emails:</b>*10*",
+                "<b>Sent Emails:</b>*150/mon*",
+                "<b>Received Emails:</b>*Unlimited*",
+                "<b>Replied Emails:</b>*Unlimited*"
+            ],
+            "button": {
+                "type": "notification",
+                "text": "Get Started",
+                "link": "",
+                "notice": "Please contact support@duotail.com to enroll this plan."
+            }
+        },
+        {
+            "title": "Business",
+            "description": "Designed for small businesses and teams to manage email communications",
+            "image": "images/prices/org.svg",
+            "price": "<span class='fs-1'>Starts at $50</span><span class='fs-3'>/mon</span>",
+            "features": [
+                "<b>Customized Domain:</b>*1*",
+                "<b>Traditional Emails:</b>*Allowed*",
+                "<b>Deploy to Own Servers:</b>*Supported*",
+                "<b>Duotail Emails:</b>*Unlimited*",
+                "<b>Group Emails:</b>*Enabled*"
+            ],
+            "button": {
+                "type": "notification",
+                "text": "Get Quote",
+                "link": "",
+                "notice": "Please contact support@duotail.com to get more information."
+            }
+        }
+    ]
+}
