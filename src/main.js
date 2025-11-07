@@ -6,6 +6,7 @@ import HomePage from "/src/vue/content/pages/HomePage.vue"
 import LicensePage from "/src/vue/content/pages/LicensePage.vue"
 import PolicyPage from "/src/vue/content/pages/PolicyPage.vue"
 import KnowledgePage from "./vue/content/pages/KnowledgePage.vue"
+import ConstructionPage from "./vue/content/pages/ConstructionPage.vue"
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -66,6 +67,26 @@ const router = createRouter({
                     "/"
                 ]
             }
+        },
+
+        {
+            path: "/construction",
+            name: "construction",
+            component: ConstructionPage,
+            props: {
+                label: "Under Construction",
+                faIcon: "fa-solid fa-person-digging",
+                inPageNavbar: false,
+                shouldAlwaysPreload: true,
+
+                breadcrumbs: [
+                    "/"
+                ]
+            },
+            meta: {
+                hideInNavbar: true
+            }
+
         },
 
         {

@@ -14,21 +14,22 @@ import {useRoute, useRouter} from "vue-router"
 const route = useRoute()
 const router = useRouter()
 
-const props = defineProps({
+defineProps({
     logo: String,
     label: String
 })
 
 const linkList = computed(() => {
     return router.getRoutes()
+        .filter(r => r.meta?.hideInNavbar !== true)
         .map(r => {return {
             path: r.path,
             label: r?.props?.default?.label || r.name,
             faIcon: r?.props?.default?.faIcon || 'fa-solid fa-circle',
-            isActive: route.path === r.path
+            isActive: route.path === r.path,
         }})
         .filter(r => {
-            return r.label
+            return r.label 
         })
 })
 </script>

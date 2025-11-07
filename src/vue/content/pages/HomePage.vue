@@ -20,7 +20,7 @@ const sections = [
 ]
 
 const navLinks = [
-    new NavLink('login', 'Login', 'https://www.duotail.com', 'fa-solid fa-user'),
+    new NavLink('login', 'Login', '/construction', 'fa-solid fa-user'),
 ]
 
 </script>

@@ -14,16 +14,15 @@
 
 <script setup>
 import {useRoute, useRouter} from "vue-router"
-import {computed, onMounted, onUnmounted, ref, watch} from "vue"
-import {useLayout} from "/src/composables/layout.js"
+import {computed} from "vue"
 import RouteNavbar from "/src/vue/components/nav/navbar-wrappers/RouteNavbar.vue"
 import InPageNavbar from "/src/vue/components/nav/navbar-wrappers/InPageNavbar.vue"
 
 const route = useRoute()
 const router = useRouter()
-const layout = useLayout()
 
-const props = defineProps({
+
+defineProps({
     logo: String,
     label: String
 })
