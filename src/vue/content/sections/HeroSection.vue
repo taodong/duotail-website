@@ -1,7 +1,7 @@
 <template>
     <!-- Heading Section -->
     <PageHeader :id="props.id"
-                title="Duotail *Email Address Service*"
+                title="Duotail *Secured Email Service*"
                 subtitle="We offer non-intrusive email addresses to secure your personal mailboxes."
                 logo-url="images/logo/logo-128x128.png"
                 :show-button="true"
@@ -21,7 +21,8 @@ import PageHeader from "/src/vue/components/layout/PageHeader.vue"
 import NotificationPopup from "/src/vue/components/widgets/NotificationPopup.vue"
 
 const props = defineProps({
-    id: String
+    id: String,
+    extra: Object
 })
 
 const notification = ref(null)

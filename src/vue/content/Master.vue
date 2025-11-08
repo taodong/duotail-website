@@ -1,7 +1,7 @@
 <template>
     <!-- Navigation -->
     <Navigation logo="images/logo/logo-small.png"
-                label="*Duo*Tail"/>
+                label="*DuoTail*"/>
 
     <!-- Content Display -->
     <router-view/>
