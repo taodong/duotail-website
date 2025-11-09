@@ -2,7 +2,7 @@
     <!-- Heading Section -->
     <PageHeader :id="props.id"
                 title="Duotail *Secured Email Service*"
-                subtitle="We offer non-intrusive email addresses to secure your personal mailboxes."
+                subtitle="Email addresses you can published anywhere without fear of spam or trolls."
                 logo-url="images/logo/logo-128x128.png"
                 :show-button="true"
                 :buttons="[
