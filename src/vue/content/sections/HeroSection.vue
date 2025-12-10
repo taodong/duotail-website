@@ -6,7 +6,7 @@
                 logo-url="images/logo/logo-128x128.png"
                 :show-button="true"
                 :buttons="[
-                    { label: 'Get started — No Cost, No Catch', icon: 'fa-solid fa-arrow-right', url: 'https://my.duotail.com' },
+                    { label: 'Get started — No Cost, No Catch', icon: 'fa-solid fa-arrow-right', url: 'https://my.duotail.com/register' },
                     { label: 'Find Out More', icon: 'fa-solid fa-search', url: '#faq' }
                 ]"
                 @click="_onHeaderClick"/>
