@@ -6,7 +6,7 @@
                 logo-url="images/logo/logo-128x128.png"
                 :show-button="true"
                 :buttons="[
-                    { label: 'Get started — No Cost, No Catch', icon: 'fa-solid fa-arrow-right', url: 'get-started' },
+                    { label: 'Get started — No Cost, No Catch', icon: 'fa-solid fa-arrow-right', url: 'https://my.duotail.com' },
                     { label: 'Find Out More', icon: 'fa-solid fa-search', url: '#faq' }
                 ]"
                 @click="_onHeaderClick"/>
@@ -33,6 +33,8 @@ const _onHeaderClick = (url) => {
             message: 'Thank you for your interest! The Get Started page is coming soon.',
             level: 'info'
         }
+    } else {
+        window.open(url, '_blank')
     }
 }
 

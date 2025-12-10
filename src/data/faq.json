@@ -18,7 +18,7 @@
         },
         {
             "question": "What does *Prefix Based* mean?",
-            "answer": "It means each customer is granted all the email addresses with the same prefix. For example, if your prefix is *example*, then your main email address is *example@duotail.com*. Any address beginning with *example_* (e.g., *example_amazon@duotail.com*, *example_cat@duotail.com*) will only belong to you."
+            "answer": "It means each customer is granted all the email addresses with the same prefix. For example, if your prefix is *example*, then your main email address is *example@duotail.com*. Any address beginning with *example_* (e.g., *example_amazon@duotail.com*, *example_cat@duotail.com*) will permanently belong to you."
         },
         {
             "question": "Is my personal email address exposed when using Email Address Service?",
