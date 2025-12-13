@@ -43,6 +43,10 @@
         {
             "question": "Why does my email address start with a prefix *a_*?",
             "answer": "Prefix *a_* is called an alias prefix. We believe everyone should have an email address that they can use without tied to their real identity. However, the recipient of these emails should be able to tell if an email is from an anonymous sender. Therefore, we prepend all alias email addresses with prefix *a_*. So, a person received an email from *a_harry.potter@duotail.com*, he can tell the sender is *<strong>A</strong> Harry Potter* not *<strong>The</strong> Harry Potter*."
+        },
+        {
+            "question": "Can I send emails from my email address?",
+            "answer": "Only verified or paid customers can send emails from their email addresses. This is to prevent abuse of the service and ensure that only legitimate users can use the email addresses provided by the service."
         }
     ]
 }
