@@ -1,8 +1,8 @@
 <template>
     <!-- Heading Section -->
     <PageHeader :id="props.id"
-                title="Duotail *Secured Email Service*"
-                subtitle="Email addresses you can published anywhere without fear of spam or trolls."
+                title="Duotail *Secured Email Proxy*"
+                subtitle="The trusted solution to secure every inbox from spam, phishing, and unwanted emails"
                 logo-url="images/logo/logo-128x128.png"
                 :show-button="true"
                 :buttons="[
