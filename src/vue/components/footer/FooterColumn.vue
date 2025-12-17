@@ -12,7 +12,7 @@
         <div v-if="props.description.length > 0"
              class="duotail-footer-col-item">
             <div class="duotail-footer-col-description">
-                <p v-for="descriptionItem in props.description" class="text-2 m-0" v-html="descriptionItem"/>
+                <p v-for="(descriptionItem, index) in props.description" :key="index" class="text-2 m-0" v-html="descriptionItem"/>
             </div>
         </div>
 
@@ -79,10 +79,6 @@ h5.duotail-footer-col-title {
 }
 
 div.duotail-footer-col-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     @include generate-dynamic-styles-with-hash((
         xxxl: (padding-top:0.5rem),
         lg: (padding-top:0.3rem),
@@ -90,6 +86,16 @@ div.duotail-footer-col-item {
 
     margin: 0 auto;
     max-width: 380px;
+    width: 100%; // Ensure items take full width
+}
+
+// Only center content for SocialLinks and InlineLinkList if needed
+// You can add a class or use a deep selector if necessary, e.g.:
+.duotail-footer-col-item :deep(.social-links),
+.duotail-footer-col-item :deep(.inline-link-list) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div.duotail-footer-col-description {
@@ -97,8 +103,11 @@ div.duotail-footer-col-description {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    width: 100%;
 
-    p: {
+    p {
+        text-align: left;
+        width: 100%;
         text-transform: none !important;
     }
 }

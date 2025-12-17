@@ -28,7 +28,7 @@
                 "icon": "none",
                 "anchor": "unsecured-link-alert",
                 "question": "Unsecured Link Alert",
-                "answer": "*Unsecured link alert* is a notification that there are unsecured links detected in the original email. In such case, all the unsecured links are listed in the following *Unsecured URLs* column."
+                "answer": "*Unsecured link alert* is a notification that there are non https links detected in the original email. In such case, all the unsecured links are listed in the following *Unsecured URLs* column."
             },
             {
                 "icon": "none",

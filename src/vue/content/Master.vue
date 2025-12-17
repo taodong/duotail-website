@@ -13,17 +13,18 @@
             <FooterColumn title="Credits"
                           faIcon="fa-solid fa-award me-1 d-none d-md-inline"
                           :description="[
-                              `The look and feel of this website is developed above Ryan Balieiro's <a href='https://github.com/ryanbalieiro/vue-agency-landing-page-template/' target='_blank'>Foxy - Vue Agency Landing Page</a> framework.`
+                              `<i class='fa-solid fa-champagne-glasses'></i> This website uses Ryan Balieiro's <a href='https://github.com/ryanbalieiro/vue-agency-landing-page-template/' target='_blank'>Foxy - Vue Agency Landing Page</a> template.`,
+                              `<i class='fa-solid fa-champagne-glasses'></i> Logo is designed by <a href='https://www.artstation.com/massivewei' target='_blank'>Wei Chen</a>.`,
                           ]"
                           :links="[]"
                           :displayLinksAsButtons="false"/>
 
-            <FooterColumn title="Contact Info"
+            <FooterColumn title="Contact Us"
                           faIcon="fa fa-fax me-2"
                           :description="[
-                              `For any support or feedback, reach out to us at:`,
+                              `For any support or suggestions, reach out to us at:`,
                               `<i class='fa-regular fa-envelope'></i> Support:&nbsp;<a href='mailto:support@duotail.com'>support@duotail.com</a>`,
-                              `<i class='fa-regular fa-envelope'></i> Feedback:&nbsp;<a href='mailto:feedback@duotail.com'>feedback@duotail.com</a>`
+                              `<i class='fa-regular fa-envelope'></i> Suggestions:&nbsp;<a href='mailto:contact@duotail.com'>contact@duotail.com</a>`
                           ]"
                           :links="[]"
                           :displayLinksAsButtons="false"/>
