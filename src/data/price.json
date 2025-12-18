@@ -30,10 +30,10 @@
                 "<b>Replied Emails:</b>*Unlimited*"
             ],
             "button": {
-                "type": "notification",
-                "text": "Get Started",
-                "link": "",
-                "notice": "Please contact support@duotail.com to enroll this plan."
+                "type": "url",
+                "text": "Join Waitlist",
+                "link": "https://docs.google.com/forms/d/e/1FAIpQLSdgIvbEPP2FiP7RTeZ6AIeDurNg2T6B-E9PZ13t-hZZ5jHobg/viewform?usp=sharing&ouid=106518390095581064622",
+                "notice": ""
             }
         },
         {
