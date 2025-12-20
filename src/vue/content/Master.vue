@@ -14,7 +14,7 @@
                           faIcon="fa-solid fa-award me-1 d-none d-md-inline"
                           :description="[
                               `<i class='fa-solid fa-champagne-glasses'></i> This website uses Ryan Balieiro's <a href='https://github.com/ryanbalieiro/vue-agency-landing-page-template/' target='_blank'>Foxy - Vue Agency Landing Page</a> template.`,
-                              `<i class='fa-solid fa-champagne-glasses'></i> Logo is designed by <a href='https://www.artstation.com/massivewei' target='_blank'>Wei Chen</a>.`,
+                              `<i class='fa-solid fa-champagne-glasses'></i> Logo designed by <a href='https://www.artstation.com/massivewei' target='_blank'>Wei Chen</a>.`,
                           ]"
                           :links="[]"
                           :displayLinksAsButtons="false"/>
