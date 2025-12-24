@@ -2,12 +2,12 @@
     <!-- Heading Section -->
     <PageHeader :id="props.id"
                 title="Duotail *Secured Email Proxy*"
-                subtitle="The trusted solution to secure every inbox from spam, phishing, and unwanted emails"
+                subtitle="The definitive solution for securing your inbox against spam, phishing, and unwanted email."
                 logo-url="images/logo/logo-128x128.png"
                 :show-button="true"
                 :buttons="[
                     { label: 'Get started — No Cost, No Catch', icon: 'fa-solid fa-arrow-right', url: 'https://my.duotail.com/register' },
-                    { label: 'Find Out More', icon: 'fa-solid fa-search', url: '#faq' }
+                    { label: 'Find Out More', icon: 'fa-solid fa-search', url: 'https://docs.duotail.com' }
                 ]"
                 @click="_onHeaderClick"/>
 

@@ -21,6 +21,7 @@ const sections = [
 
 const navLinks = [
     new NavLink('login', 'Login', 'https://my.duotail.com', 'fa-solid fa-user'),
+    new NavLink('docs', 'Documentation', 'https://docs.duotail.com', 'fa-solid fa-book'),
 ]
 
 </script>
