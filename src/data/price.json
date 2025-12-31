@@ -6,7 +6,7 @@
             "image": "images/prices/free.svg",
             "price": "<span class='fs-1'>Free</span>",
             "features": [
-                "<b>Alias Emails:</b>*10*",
+                "<b>Alias Channels:</b>*1*",
                 "<b>Received Emails:</b>*Unlimited*",
                 "<b>Replied Emails:</b>*Unlimited*"
             ],
@@ -23,9 +23,9 @@
             "image": "images/prices/basic.svg",
             "price": "<span class='fs-1'>$10<span><span class='fs-3'>/mon</spa>",
             "features": [
-                "<b>Identity Emails:</b>*1*",
-                "<b>Alias Emails:</b>*10*",
-                "<b>Sent Emails:</b>*150/mon*",
+                "<b>Identity Channels:</b>*1*",
+                "<b>Alias Channels:</b>*10*",
+                "<b>Outgoing Emails:</b>*150/mon*",
                 "<b>Received Emails:</b>*Unlimited*",
                 "<b>Replied Emails:</b>*Unlimited*"
             ],
