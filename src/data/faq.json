@@ -2,7 +2,7 @@
     "faqs": [
         {
             "question": "What is Duotail Email Address Proxy?",
-            "answer": "Duotail Email Address Proxy is a solution that provides users with email addresses to protect their personal inboxes. <strong>*Our purpose is to provide you an email address that you can post publicly without worrying about spam or privacy issues.*</strong>"
+            "answer": "*Duotail Email Address Proxy* is a comprehensive solution that grants users total control over their inboxes and incoming communications. By acting as a secure shield, our proxy addresses protect your personal inbox from spam and safeguard your digital privacy."
         },
         {
             "question": "What is our service different from other email forwarding services?",
@@ -38,11 +38,7 @@
         },
         {
             "question": "Do you store my emails?",
-            "answer": "In current version, we bare the cost of storing some of your emails for up to 90 days in case you need to access any emails that are not forwarded to your personal inbox. In future versions, we may offer additional storage options."
-        },
-        {
-            "question": "Why does my email address start with a prefix *a_*?",
-            "answer": "Prefix *a_* is called an alias prefix. We believe everyone should have an email address that they can use without tied to their real identity. However, the recipient of these emails should be able to tell if an email is from an anonymous sender. Therefore, we prepend all alias email addresses with prefix *a_*. So, a person received an email from *a_harry.potter@duotail.com*, he can tell the sender is *<strong>A</strong> Harry Potter* not *<strong>The</strong> Harry Potter*."
+            "answer": "In current version, we bare the cost of storing some of your emails for up to 30 days in case you need to access any emails that are not forwarded to your personal inbox. In future versions, we may offer additional storage options."
         },
         {
             "question": "Can I send emails from my email address?",
