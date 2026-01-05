@@ -5,11 +5,11 @@
             "answer": "*Duotail Email Address Proxy* is a comprehensive solution that grants users total control over their inboxes and incoming communications. By acting as a secure shield, our proxy addresses protect your personal inbox from spam and safeguard your digital privacy."
         },
         {
-            "question": "What is our service different from other email forwarding services?",
-            "answer": "<p>There are three main differences:</p><ul><li><strong>Whitelisted Only:</strong> All the senders have to be whitelisted before their emails are forwarded.</li><li><strong>Silent Reception:</strong> All incoming emails are either saved, dropped or forwarded without notifying the outside senders.</li><li><strong>Prefix Based:</strong> All the email addresses with the same prefix are granted to a simple customer.</li></ul>"
+            "question": "How does our service differ from other email forwarding providers?",
+            "answer": "<p>There are three fundamental differences:</p><ul><li><strong>Approved Senders Only:</strong> Only emails from addresses you have explicitly approved will be forwarded. All other traffic is automatically filtered out.</li><li><strong>Silent Reception:</strong> All incoming emails are either saved, dropped, or forwarded without ever notifying the original sender, maintaining your total anonymity.</li><li><strong>Prefix-Based Ownership:</strong> All email addresses sharing the same unique prefix are assigned exclusively to a single customer, allowing for easy management of multiple aliases.</li></ul>"
         },
         {
-            "question": "What does *Whitelisted Only* mean?",
+            "question": "What does *Approved Senders Only* mean?",
             "answer": "It means only the senders that you have approved can send emails to your email addresses. For your main email address, e.g. *example@duotail.com*, only emails from your contacts will be forwarded. For tailed email addresses, e.g. *example_amazon@duotail.com*, you can define more lenient rules, such as allowing all emails from a specific domain (e.g., *@amazon.com*)."
         },
         {
@@ -17,7 +17,7 @@
             "answer": "It means incoming emails are either saved, dropped or forwarded. We don't bounce email or report junk/spam status to the senders. This way, senders will not be able to guess your email addresses. We believe you should be in full control of how your email addresses are known."
         },
         {
-            "question": "What does *Prefix Based* mean?",
+            "question": "What does *Prefix-Based Ownership* mean?",
             "answer": "It means each customer is granted all the email addresses with the same prefix. For example, if your prefix is *example*, then your main email address is *example@duotail.com*. Any address beginning with *example_* (e.g., *example_amazon@duotail.com*, *example_cat@duotail.com*) will permanently belong to you."
         },
         {
@@ -25,7 +25,7 @@
             "answer": "No, your personal email address remains private as all communications are routed through the email addresses provided by the service."
         },
         {
-            "question": "Is the Email addresses disposable?",
+            "question": "Are the Email addresses disposable?",
             "answer": "Technically, you can stop use them anytime you want. However, the goal is to provide you an email address that you can use life-long."
         },
         {
