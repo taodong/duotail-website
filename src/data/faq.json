@@ -9,40 +9,28 @@
             "answer": "<p>There are three fundamental differences:</p><ul><li><strong>Approved Senders Only:</strong> Only emails from addresses you have explicitly approved will be forwarded. All other traffic is automatically filtered out.</li><li><strong>Silent Reception:</strong> All incoming emails are either saved, dropped, or forwarded without ever notifying the original sender, maintaining your total anonymity.</li><li><strong>Prefix-Based Ownership:</strong> All email addresses sharing the same unique prefix are assigned exclusively to a single customer, allowing for easy management of multiple aliases.</li></ul>"
         },
         {
-            "question": "What does *Approved Senders Only* mean?",
-            "answer": "It means only the senders that you have approved can send emails to your email addresses. For your main email address, e.g. *example@duotail.com*, only emails from your contacts will be forwarded. For tailed email addresses, e.g. *example_amazon@duotail.com*, you can define more lenient rules, such as allowing all emails from a specific domain (e.g., *@amazon.com*)."
+            "question": "Is my personal email address exposed when using the Email Address Proxy?",
+            "answer": "No. Your personal email address remains completely private. Our service acts as a secure intermediary, routing all communications through your proxy addresses so that senders never see your actual inbox."
         },
         {
-            "question": "What does *Silent Reception* mean?",
-            "answer": "It means incoming emails are either saved, dropped or forwarded. We don't bounce email or report junk/spam status to the senders. This way, senders will not be able to guess your email addresses. We believe you should be in full control of how your email addresses are known."
-        },
-        {
-            "question": "What does *Prefix-Based Ownership* mean?",
-            "answer": "It means each customer is granted all the email addresses with the same prefix. For example, if your prefix is *example*, then your main email address is *example@duotail.com*. Any address beginning with *example_* (e.g., *example_amazon@duotail.com*, *example_cat@duotail.com*) will permanently belong to you."
-        },
-        {
-            "question": "Is my personal email address exposed when using Email Address Service?",
-            "answer": "No, your personal email address remains private as all communications are routed through the email addresses provided by the service."
-        },
-        {
-            "question": "Are the Email addresses disposable?",
-            "answer": "Technically, you can stop use them anytime you want. However, the goal is to provide you an email address that you can use life-long."
+            "question": "Is this a **burner** email service?",
+            "answer": "No. Although you have the flexibility to stop using an address whenever you choose, our service is built for long-term use. Our goal is to provide secure, permanent email addresses that serve as your permanent digital identity while keeping your personal inbox shielded."
         },
         {
             "question": "Do I need to configure anything in my personal email account?",
-            "answer": "No, you don't need to configure anything in your personal email account. However, you may want to add our email domain *duotail.com* to your email provider's safe sender list."
+            "answer": "No, there is no technical configuration required on your personal account. However, to ensure seamless delivery, we highly recommend adding the *duotail.com* domain to your email provider's \"Safe Senders\" list. This prevents our forwarded messages from being accidentally flagged as spam."
         },
         {
-            "question": "Can I have an email address that all incoming emails are forwarded to my personal inbox?",
-            "answer": "No. Our service is designed to protect your privacy. If you want a regular email forwarding, we suggest you either create a new email account through popular email providers such as *gmail* or try existing email forwarding services."
+            "question": "Can I use this for standard, unrestricted email forwarding?",
+            "answer": "Our service functions differently than a traditional forwarding provider. To protect your privacy and prevent spam, we do not forward all incoming mail by default. Instead, we use a *permission-based system* where only approved senders reach your inbox. If you require unrestricted forwarding without these security layers, a standard email provider may be a better fit."
         },
         {
             "question": "Do you store my emails?",
-            "answer": "In current version, we bare the cost of storing some of your emails for up to 30 days in case you need to access any emails that are not forwarded to your personal inbox. In future versions, we may offer additional storage options."
+            "answer": "To ensure reliability, we retain a copy of all processed emails for 30 days. This allows you to download the original content in the rare event of a processing or delivery failure.<br>For our *Paid Plan* users, we provide this storage for all emails sent to existing channels or routes. This ensures you can still access and review messages that were not forwarded to your personal inbox (such as those that were \"Saved\" but not \"Sent\").<br>We are actively developing a feature that will allow customers to *opt out* of server-side storage entirely. In the meantime, you can permanently delete any stored records at any time via the *History* page. We maintain a strict privacy policy: *we never view your email content unless you provide explicit permission for support purposes.*"
         },
         {
             "question": "Can I send emails from my email address?",
-            "answer": "Only verified or paid customers can send emails from their email addresses. This is to prevent abuse of the service and ensure that only legitimate users can use the email addresses provided by the service."
+            "answer": "Only verified or paid customers can send emails from their email addresses. This is to prevent abuse of our service and ensure that only legitimate users can use the email addresses provided by our service."
         }
     ]
 }
