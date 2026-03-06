@@ -13,7 +13,7 @@
                            class="duotail-hero-header-logo"/>
 
                 <!-- Texts -->
-                <h1 class="heading"
+                <h2 class="heading"
                     v-html="parsedTitle"/>
                 <h4 class="subheading"
                     v-html="parsedSubtitle"/>
@@ -107,12 +107,17 @@ header.duotail-header {
         width: var(--logo-proportion);
     }
 
-    h1.heading {
+    h2.heading {
         color:$white;
         text-transform: uppercase;
-        font-weight: 700;
-        font-size: calc(var(--logo-proportion)/6);
+        font-weight: 500;
+        font-size: clamp(12px, 2.5vw, 32px);
         padding: calc(var(--logo-proportion)/8) 0 calc(var(--logo-proportion)/180);
+        white-space: nowrap;
+        @include media-breakpoint-down(sm) {
+            white-space: normal;
+            font-size: clamp(22px, 6vw, 32px);
+        }
     }
 
     h4.subheading {
