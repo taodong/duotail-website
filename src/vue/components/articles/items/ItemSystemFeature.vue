@@ -54,9 +54,7 @@ article.duotail-system-feature-card {
     min-height: 100%;
     border-radius: 24px;
     border: 1px solid rgba($dark, 0.08);
-    background:
-        radial-gradient(circle at top right, rgba($primary, 0.16), transparent 35%),
-        linear-gradient(180deg, rgba($white, 1) 0%, rgba(lighten($primary, 45%), 0.88) 100%);
+    background: lighten($primary, 45%);
     box-shadow: 0 18px 40px rgba($dark, 0.08);
     overflow: hidden;
 }
@@ -68,7 +66,7 @@ article.duotail-system-feature-card::before {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, rgba($primary, 0.9), rgba($primary, 0));
+    background: $primary;
 }
 
 div.duotail-system-feature-card-body {

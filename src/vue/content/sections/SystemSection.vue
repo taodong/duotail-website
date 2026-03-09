@@ -5,7 +5,8 @@
 
         <PageSectionContent>
             <article class="duotail-system-overview">
-                <div class="duotail-system-grid d-none d-lg-grid">
+                <div v-if="isDesktopLayout"
+                     class="duotail-system-grid">
                     <ItemSystemFeature v-for="(feature, index) in features"
                                        :key="feature.title"
                                        class="duotail-system-grid-card"
@@ -15,18 +16,18 @@
                                        :detail="feature.detail"/>
                 </div>
 
-                <swiper
-                    class="duotail-system-swiper d-lg-none"
-                    :slidesPerView="1.08"
-                    :spaceBetween="16"
-                    :pagination="{ clickable: true, dynamicBullets: true }"
-                    :modules="[Pagination]"
-                    :grab-cursor="true"
-                    :prevent-clicks-propagation="true"
-                    :breakpoints="{
-                        576: { slidesPerView: 1.2, spaceBetween: 18 },
-                        768: { slidesPerView: 1.5, spaceBetween: 20 }
-                    }">
+                <swiper v-else
+                        class="duotail-system-swiper px-1"
+                        :slidesPerView="1"
+                        :spaceBetween="20"
+                        :pagination="{clickable: true}"
+                        :modules="[Pagination]"
+                        :grab-cursor="true"
+                        :prevent-clicks-propagation="true"
+                        :breakpoints="{
+                            0:   {slidesPerView: 1},
+                            768: {slidesPerView: 2}
+                        }">
                     <swiper-slide v-for="feature in features"
                                   :key="`${feature.title}-mobile`">
                         <ItemSystemFeature class="duotail-system-mobile-card"
@@ -41,6 +42,7 @@
 </template>
 
 <script setup>
+import { computed, onMounted, onUnmounted, ref } from "vue"
 import PageSection from "/src/vue/components/layout/PageSection.vue"
 import PageSectionHeader from "/src/vue/components/layout/PageSectionHeader.vue"
 import PageSectionContent from "/src/vue/components/layout/PageSectionContent.vue"
@@ -49,11 +51,16 @@ import { Swiper, SwiperSlide } from "swiper/vue"
 import "swiper/css"
 import "swiper/css/pagination"
 import { Pagination } from "swiper/modules"
+import { useUtils } from "/src/composables/utils.js"
 import featureData from "/src/data/feature.json"
+
+const utils = useUtils()
 
 const props = defineProps({
     id: String
 })
+
+const viewportWidth = ref(typeof window !== "undefined" ? window.innerWidth : utils.BOOTSTRAP_BREAKPOINTS.lg)
 
 const desktopCardClasses = [
     "system-card-hero",
@@ -64,12 +71,30 @@ const desktopCardClasses = [
 ]
 
 const features = featureData.features ?? []
+
+const isDesktopLayout = computed(() => {
+    return viewportWidth.value >= utils.BOOTSTRAP_BREAKPOINTS.lg
+})
+
+const _onWindowResize = () => {
+    viewportWidth.value = window.innerWidth
+}
+
+onMounted(() => {
+    window.addEventListener("resize", _onWindowResize)
+    _onWindowResize()
+})
+
+onUnmounted(() => {
+    window.removeEventListener("resize", _onWindowResize)
+})
 </script>
 
 <style lang="scss" scoped>
 @import "/src/scss/_theming.scss";
 
 div.duotail-system-grid {
+    display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
     grid-template-areas:
         "hero hero hero hero hero hero tall tall tall top top top"
@@ -96,16 +121,12 @@ div.duotail-system-grid {
 
 .system-card-hero {
     grid-area: hero;
-    background:
-        radial-gradient(circle at top right, rgba($primary, 0.24), transparent 40%),
-        linear-gradient(160deg, rgba($white, 1) 0%, rgba(lighten($primary, 42%), 0.94) 100%);
+    background: lighten($primary, 45%);
 }
 
 .system-card-tall {
     grid-area: tall;
-    background:
-        radial-gradient(circle at bottom left, rgba($primary, 0.18), transparent 46%),
-        linear-gradient(180deg, rgba($white, 1) 0%, rgba(lighten($primary, 46%), 0.92) 100%);
+    background: lighten($primary, 45%);
 }
 
 .system-card-top {
@@ -114,16 +135,12 @@ div.duotail-system-grid {
 
 .system-card-bottom {
     grid-area: bottom;
-    background:
-        radial-gradient(circle at top left, rgba($primary, 0.14), transparent 38%),
-        linear-gradient(180deg, rgba($white, 1) 0%, rgba(lighten($primary, 47%), 0.88) 100%);
+    background: lighten($primary, 45%);
 }
 
 .system-card-wide {
     grid-area: wide;
-    background:
-        radial-gradient(circle at left center, rgba($primary, 0.18), transparent 42%),
-        linear-gradient(135deg, rgba($white, 1) 0%, rgba(lighten($primary, 44%), 0.9) 100%);
+    background: lighten($primary, 45%);
 }
 
 .system-card-hero :deep(.duotail-system-feature-card-title),
@@ -131,31 +148,17 @@ div.duotail-system-grid {
     font-size: 1.55rem;
 }
 
-.duotail-system-swiper {
-    overflow: visible;
-    padding: 0.25rem 0.15rem 2.75rem;
-}
-
 .duotail-system-mobile-card {
     min-height: 100%;
 }
 
-.duotail-system-swiper :deep(.swiper-slide) {
-    height: auto;
-    padding-bottom: 0.5rem;
-}
+.swiper {
+    height: 100%;
 
-.duotail-system-swiper :deep(.swiper-pagination) {
-    bottom: 0;
-}
-
-.duotail-system-swiper :deep(.swiper-pagination-bullet) {
-    background: rgba($primary, 0.35);
-    opacity: 1;
-}
-
-.duotail-system-swiper :deep(.swiper-pagination-bullet-active) {
-    background: $primary;
+    .swiper-slide {
+        margin-bottom: 40px;
+        height: auto!important;
+    }
 }
 
 @include media-breakpoint-down(xl) {
