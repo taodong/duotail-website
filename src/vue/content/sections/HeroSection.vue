@@ -1,7 +1,7 @@
 <template>
     <!-- Heading Section -->
     <PageHeader :id="props.id"
-                title="*Privacy isn’t a premium feature. It’s a human right.*"
+                title="*Email infrastructure rebuilt for total control*"
                 subtitle="Duotail is the world’s first prefix-based email gateway that stops any unwanted emails before they reach your inbox. <br>Experience &quot;Inbox Zen&quot; with a service that treats you like a person, not a product."
                 logo-url="images/logo/logo-128x128.png"
                 :show-button="true"

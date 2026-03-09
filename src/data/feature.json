@@ -1,0 +1,29 @@
+{
+  "features": [
+    {
+      "title": "The Vaulted Inbox",
+      "detail": "Your primary email address is shielded behind a cryptographic wall. Only senders on your approved whitelist can reach you. Everyone else is stopped at the gateway.",
+      "icon": "fa-solid fa-vault"
+    },
+    {
+      "title": "Meaningful Custom Suffixes",
+      "detail": "Stop using random strings of gibberish. Create memorable, user-defined suffixes for any scenario, like yourname_shopping. Unlimited, intuitive, and entirely under your control.",
+      "icon": "fa-solid fa-tags"
+    },
+    {
+      "title": "Universal Integration",
+      "detail": "Duotail is non-intrusive by design. It works seamlessly with Gmail, Outlook, or Apple Mail, and even enhances existing privacy services like SimpleLogin or DuckDuckGo.",
+      "icon": "fa-solid fa-plug-circle-check"
+    },
+    {
+      "title": "On-the-Fly Decryption",
+      "detail": "We don't store your decryption keys. Data is encrypted at rest and keys are generated only when you need them, making your messages virtually data-breach proof.",
+      "icon": "fa-solid fa-key"
+    },
+    {
+      "title": "Zero-Lock-In Freedom",
+      "detail": "We believe in your right to leave. Download your entire email configuration at any time or deactivate your account with a single click. No questions asked.",
+      "icon": "fa-solid fa-door-open"
+    }
+  ]
+}
