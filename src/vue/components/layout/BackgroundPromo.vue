@@ -19,7 +19,7 @@ div.duotail-promo-background {
     width: 100%;
     z-index: -1;
 
-    background-image: url('/src/assets/header-bg.jpeg');
+    background-image: url('/src/assets/hero-bg.png');
     background-position: center;
     background-size: cover;
 }

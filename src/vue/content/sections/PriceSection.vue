@@ -30,6 +30,7 @@
                             :title="price.title"
                             :description="price.description"
                             :image="price.image"
+                            :demo="price.demo"
                             :features="price.features"
                             :price="price.price"
                             :buttonUrl="price.button.link"

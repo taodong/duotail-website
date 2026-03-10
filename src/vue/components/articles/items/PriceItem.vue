@@ -11,8 +11,14 @@
         </div>
 
         <div class="card-body text-4">
+            <ImageView v-if="props.demo"
+                       :src="props.demo"
+                       :alt="`${props.title} demo preview`"
+                       class="duotail-price-demo"/>
+
             <p v-if="props.description" class="duotail-testimonial-description ms-3 mt-2 card-subtitle"
                v-html="utils.parseCustomText(props.description)"/>
+
             <ul class="list-group">
                 <li v-for="feature in props.features"
                     :key="feature"
@@ -53,6 +59,7 @@ const props = defineProps({
     title: String,
     image: String,
     description: String,
+    demo: String,
     features: {
         type: Array,
         default: () => []
@@ -115,6 +122,10 @@ div.duotail-testimonial-thumbnail {
     border:none;
 }
 
+h4.duotail-testimonial-title {
+    min-width: 0;
+}
+
 div.card-footer {
     @include generate-dynamic-styles-with-hash((
         xxxl: (padding-top: 1rem),
@@ -131,5 +142,39 @@ div.card-footer .price-text {
 
 p.duotail-testimonial-description {
     margin-bottom: 1rem;
+}
+
+div.duotail-price-demo {
+    --duotail-price-demo-ratio: 5 / 4;
+
+    width: calc(100% + 2rem);
+    max-width: calc(100% + 2rem);
+    aspect-ratio: var(--duotail-price-demo-ratio);
+    margin: -1rem -1rem 1rem;
+    padding: 0;
+    border-radius: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: rgba(white, 0.55);
+}
+
+div.duotail-price-demo :deep(img.image),
+div.duotail-price-demo :deep(div.image-not-found-fallback) {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+div.duotail-price-demo :deep(img.image) {
+    object-fit: cover;
+    object-position: top center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@include media-breakpoint-down(sm) {
+    div.duotail-price-demo {
+        margin-bottom: 0.75rem;
+    }
 }
 </style>

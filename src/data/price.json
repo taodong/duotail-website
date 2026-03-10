@@ -2,11 +2,12 @@
     "prices": [
         {
             "title": "Free",
-            "description": "Ideal for securing individual's incoming emails<br><br>",
+            "description": "The essential receive-only gateway. Ideal for those who want to monitor trackers and secure their incoming digital identity.<br><br>",
             "image": "images/prices/free.svg",
+            "demo": "images/prices/free-vault.png",
             "price": "<span class='fs-1'>Free</span>",
             "features": [
-                "<b>Alias Channels:</b>*1*",
+                "<b>Alias Prefix (Channel):</b>*1*",
                 "<b>Received Emails:</b>*Unlimited*",
                 "<b>Replied Emails:</b>*Unlimited*"
             ],
@@ -19,12 +20,13 @@
         },
         {
             "title": "Basic",
-            "description": "Perfect for individuals who seek full control over email privacy",
+            "description": "Total two-way control. Perfect for individuals who want to send, receive, and manage their entire digital presence with full privacy.",
             "image": "images/prices/basic.svg",
+            "demo": "images/prices/basic-vault.png",
             "price": "<span class='fs-1'>$10<span><span class='fs-3'>/mon</spa>",
             "features": [
                 "<b>Identity Channels:</b>*1*",
-                "<b>Alias Channels:</b>*10*",
+                "<b>Alias Channels:</b>*3*",
                 "<b>Outgoing Emails:</b>*150/mon*",
                 "<b>Received Emails:</b>*Unlimited*",
                 "<b>Replied Emails:</b>*Unlimited*"
@@ -38,9 +40,10 @@
         },
         {
             "title": "Business",
-            "description": "Designed for small businesses and teams to manage email communications",
+            "description": "Your infrastructure, your rules. Deploy Duotail to your own cloud and manage your custom domains for ultimate data sovereignty.",
+            "demo": "images/prices/duotail-business.png",
             "image": "images/prices/org.svg",
-            "price": "<span class='fs-1'>Starts at $50</span><span class='fs-3'>/mon</span>",
+            "price": "<span class='fs-1'>Starts at $500</span><span class='fs-3'>/mon</span>",
             "features": [
                 "<b>Customized Domain:</b>*1*",
                 "<b>Traditional Emails:</b>*Allowed*",
