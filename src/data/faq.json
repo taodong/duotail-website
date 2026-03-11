@@ -1,36 +1,32 @@
 {
     "faqs": [
         {
-            "question": "What is Duotail Email Address Proxy?",
-            "answer": "*Duotail Email Address Proxy* is a comprehensive solution that grants users total control over their inboxes and incoming communications. By acting as a secure shield, our proxy addresses protect your personal inbox from spam and safeguard your digital privacy."
+            "question": "What is a prefix-based email gateway?",
+            "answer": "Unlike a standard inbox, a gateway acts as a secure airlock for your digital identity. You define a unique Prefix (your Identity Slot). Any email sent to that prefix—or any variation of it (e.g., prefix_shopping@)—is intercepted by our gateway, verified against your permissions, and then routed to your vault."
         },
         {
-            "question": "How does our service differ from other email forwarding providers?",
-            "answer": "<p>There are three fundamental differences:</p><ul><li><strong>Approved Senders Only:</strong> Only emails from addresses you have explicitly approved will be forwarded. All other traffic is automatically filtered out.</li><li><strong>Silent Reception:</strong> All incoming emails are either saved, dropped, or forwarded without ever notifying the original sender, maintaining your total anonymity.</li><li><strong>Prefix-Based Ownership:</strong> All email addresses sharing the same unique prefix are assigned exclusively to a single customer, allowing for easy management of multiple aliases.</li></ul>"
+            "question": "How does Duotail differ from other email forwarding providers?",
+            "answer": "Traditional forwarders are passive. Duotail is active infrastructure. We provide 'Identity Silos' (Vault Slots) and a whitelist-first architecture that blocks unverified senders at the protocol level. We also support full bidirectional communication, allowing you to reply without exposing your true address."
         },
         {
-            "question": "Is my personal email address exposed when using the Email Address Proxy?",
-            "answer": "No. Your personal email address remains completely private. Our service acts as a secure intermediary, routing all communications through your proxy addresses so that senders never see your actual inbox."
-        },
-        {
-            "question": "Is this a **burner** email service?",
-            "answer": "No. Although you have the flexibility to stop using an address whenever you choose, our service is built for long-term use. Our goal is to provide secure, permanent email addresses that serve as your permanent digital identity while keeping your personal inbox shielded."
-        },
-        {
-            "question": "Do I need to configure anything in my personal email account?",
-            "answer": "No, there is no technical configuration required on your personal account. However, to ensure seamless delivery, we highly recommend adding the *duotail.com* domain to your email provider's \"Safe Senders\" list. This prevents our forwarded messages from being accidentally flagged as spam."
-        },
-        {
-            "question": "Can I use this for standard, unrestricted email forwarding?",
-            "answer": "Our service functions differently than a traditional forwarding provider. To protect your privacy and prevent spam, we do not forward all incoming mail by default. Instead, we use a *permission-based system* where only approved senders reach your inbox. If you require unrestricted forwarding without these security layers, a standard email provider may be a better fit."
+            "question": "Is my personal email address exposed when using your service?",
+            "answer": "Never. Your destination email is stored behind an encrypted layer. When you reply through Duotail, the recipient sees only your Duotail Identity. We strip all originating metadata, including your IP address and device headers, ensuring your true address remains invisible."
         },
         {
             "question": "Do you store my emails?",
-            "answer": "To ensure reliability, we retain a copy of all processed emails for 30 days. This allows you to download the original content in the rare event of a processing or delivery failure.<br>For our *Paid Plan* users, we provide this storage for all emails sent to existing channels or routes. This ensures you can still access and review messages that were not forwarded to your personal inbox (such as those that were \"Saved\" but not \"Sent\").<br>We are actively developing a feature that will allow customers to *opt out* of server-side storage entirely. In the meantime, you can permanently delete any stored records at any time via the *History* page. We maintain a strict privacy policy: *we never view your email content unless you provide explicit permission for support purposes.*"
+            "answer": "We only persist processed emails in a zero-knowledge state using industry-standard cryptographic primitives (including X25519 and AES-256). Because we do not persist the decryption keys, your messages are mathematically inaccessible to everyone—including us and government entities. Additionally, we provide a manual delete function, allowing you to permanently purge encrypted records from our system at any time."
         },
         {
-            "question": "Can I send emails from my email address?",
-            "answer": "Only verified or paid customers can send emails from their email addresses. This is to prevent abuse of our service and ensure that only legitimate users can use the email addresses provided by our service."
+            "question": "Can I use this for standard, unrestricted email forwarding?",
+            "answer": "No. Duotail is built for intentional communication. We are a 'Whitelist-First' gateway. If a sender is not in your permitted circle, the email is rejected. This architecture prevents your inbox from ever becoming a target for automated spam or harvesting bots."
+        },
+        {
+            "question": "What happens if I discontinue any of my Duotail email addresses?",
+            "answer": "The connection is severed instantly. To protect your privacy, our gateway 'Black-Holes' (silently drops) any incoming mail to non-existent or disabled aliases. By not sending a 'Bounce' notification, we prevent spammers from verifying if your address is active."
+        },
+        {
+            "question": "Do I need to configure anything in my personal email account?",
+            "answer": "Zero configuration is required on your existing Gmail, Outlook, or private server. You simply provide Duotail with your destination address, and our infrastructure handles the encryption, metadata stripping, and routing automatically."
         }
     ]
 }
