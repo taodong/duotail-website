@@ -7,7 +7,8 @@
             "demo": "images/prices/free-vault.png",
             "price": "<span class='fs-1'>Free</span>",
             "features": [
-                "<b>Alias Prefix (Channel):</b>*1*",
+                "<b>Shielded Identity:</b>*1*",
+                "<b>Alias:</b>*Unlimited*",
                 "<b>Received Emails:</b>*Unlimited*",
                 "<b>Replied Emails:</b>*Unlimited*"
             ],
@@ -25,9 +26,10 @@
             "demo": "images/prices/basic-vault.png",
             "price": "<span class='fs-1'>$10<span><span class='fs-3'>/mon</spa>",
             "features": [
-                "<b>Identity Channels:</b>*1*",
-                "<b>Alias Channels:</b>*3*",
+                "<b>Prime Identity:</b>*1*",
+                "<b>Shielded Identity:</b>*3*",
                 "<b>Outgoing Emails:</b>*150/mon*",
+                "<b>Alias:</b>*Unlimited*",
                 "<b>Received Emails:</b>*Unlimited*",
                 "<b>Replied Emails:</b>*Unlimited*"
             ],
@@ -45,11 +47,11 @@
             "image": "images/prices/org.svg",
             "price": "<span class='fs-1'>Starts at $500</span><span class='fs-3'>/mon</span>",
             "features": [
-                "<b>Customized Domain:</b>*1*",
-                "<b>Traditional Emails:</b>*Allowed*",
-                "<b>Deploy to Own Servers:</b>*Supported*",
-                "<b>Sent Emails:</b>*5000+*",
-                "<b>Group Emails:</b>*Enabled*"
+                "<b>Enterprise Domains:</b>*Unlimited*",
+                "<b>Legacy Email Integration:</b>*Supported*",
+                "<b>Account Management:</b>*Admin Console*",
+                "<b>Outbound Volume:</b>*Uncapped*",
+                "<b>Collaborative Routing:</b>*Enabled*"
             ],
             "button": {
                 "type": "notification",
