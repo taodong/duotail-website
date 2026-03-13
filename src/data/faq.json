@@ -14,7 +14,7 @@
         },
         {
             "question": "Do you store my emails?",
-            "answer": "We only persist processed emails in a zero-knowledge state using industry-standard cryptographic primitives (including X25519 and AES-256). Because we do not persist the decryption keys, your messages are mathematically inaccessible to everyone—including us and government entities. Additionally, we provide a manual delete function, allowing you to permanently purge encrypted records from our system at any time."
+            "answer": "We only persist processed emails in a zero-knowledge state using industry-standard cryptographic primitives (including X25519 and AES-256). Because we do not persist the decryption keys, your messages are mathematically inaccessible to everyone—including us and government entities. To further minimize your digital footprint, all encrypted records are automatically and permanently purged from our infrastructure after 30 days. You also maintain the power to manually delete any record at any time via your dashboard."
         },
         {
             "question": "Can I use this for standard, unrestricted email forwarding?",
