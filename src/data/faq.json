@@ -1,8 +1,8 @@
 {
     "faqs": [
         {
-            "question": "What is a prefix-based email gateway?",
-            "answer": "Unlike a standard inbox, a gateway acts as a secure airlock for your digital identity. You define a unique Prefix (your Identity Slot). Any email sent to that prefix—or any variation of it (e.g., prefix_shopping@)—is intercepted by our gateway, verified against your permissions, and then routed to your vault."
+            "question": "What is a Segmented Email Gateway?",
+            "answer": "Unlike a standard inbox, a segmented gateway acts as a secure airlock for your digital identity. By using a structured address format—combining your Identity, Type, and Route segments—you gain granular control over your mail. Our gateway intercepts messages sent to these segments (e.g., user_shopping@), verifies them against your security permissions, and only then routes them to your vault."
         },
         {
             "question": "How does Duotail differ from other email forwarding providers?",
