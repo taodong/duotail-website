@@ -6,7 +6,7 @@
         },
         {
             "question": "How does Duotail differ from other email forwarding providers?",
-            "answer": "Traditional forwarders are passive. Duotail is active infrastructure. We provide 'Identity Silos' (Vault Slots) and a whitelist-first architecture that blocks unverified senders at the protocol level. We also support full bidirectional communication, allowing you to reply without exposing your true address."
+            "answer": "Duotail is active security infrastructure, not a passive forwarder. We differ in two fundamental ways: <br><b>1. Email Handling:</b> While traditional services just pass mail through, our Segmented Gateway uses a whitelist-first architecture to block unverified senders at the protocol level before they even reach your inbox. We also support full bidirectional communication, so you can reply to any email without exposing your true identity. <br><b>2. Privacy Standards:</b> Most forwarders can read your mail. Duotail is a Zero-Knowledge system where your data is **cryptographically isolated**. Because your keys are derived from your secret words in your browser, it is mathematically impossible for us to access your content. \n\nRead our full <a target='_blank' href='https://docs.duotail.com/privacy'>Privacy Practices</a> to see why we are a world leader in respecting user sovereignty."
         },
         {
             "question": "Is my personal email address exposed when using your service?",

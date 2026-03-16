@@ -17,12 +17,12 @@
     },
     {
       "title": "On-the-Fly Decryption",
-      "detail": "We don't store your decryption keys. Data is encrypted at rest and keys are generated only when you need them, making your messages virtually data-breach proof.",
+      "detail": "We don't store your decryption keys. Data is encrypted at rest and keys are generated only when you need them, making your messages virtually data-breach proof. <br> <a target='_blank' href='https://docs.duotail.com/privacy/data-encryption-protocol'>Learn more about our encryption protocol</a>",
       "icon": "fa-solid fa-key"
     },
     {
       "title": "Zero-Lock-In Freedom",
-      "detail": "We believe in your right to leave. Download your entire email configuration at any time or deactivate your account with a single click. No questions asked.",
+      "detail": "We believe in your right to leave. Download your entire email configuration at any time or deactivate your account with a single click. No questions asked. <br> <a target='_blank' href='https://docs.duotail.com/privacy#-exit-policy--sovereignty'>Learn more about Zero-Lock-In</a>",
       "icon": "fa-solid fa-door-open"
     }
   ]
