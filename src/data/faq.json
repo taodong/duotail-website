@@ -14,7 +14,11 @@
         },
         {
             "question": "Do you store my emails?",
-            "answer": "We only persist processed emails in a zero-knowledge state using industry-standard cryptographic primitives (including X25519 and AES-256). Because we do not persist the decryption keys, your messages are mathematically inaccessible to everyone—including us and government entities. To further minimize your digital footprint, all encrypted records are automatically and permanently purged from our infrastructure after 30 days. You also maintain the power to manually delete any record at any time via your dashboard."
+            "answer": "Yes, but only in a Zero-Knowledge state. We use industry-standard cryptographic primitives (X25519 and AES-256) to ensure your data is mathematically inaccessible to everyone - including Duotail and government entities. You can review our full <a target='_blank' href='https://docs.duotail.com/privacy/data-encryption-protocol'>Data Encryption Protocol</a> to see how we secure your digital sovereignty. All encrypted records are automatically purged after 30 days, or you can manually delete them instantly via your dashboard."
+        },
+        {
+            "question": "Why do you keep an encrypted copy of my mail?",
+            "answer": "We store a temporary, encrypted copy to solve two major limitations of traditional email: <br> <b>1. Enhanced Clarity:</b> Standard email headers don't have enough space to show our detailed Segmented Routing data. To fix this, we attach a <a target='_blank' href='https://docs.duotail.com/concepts/email-summary'>Smart Email Summary</a> to your incoming mail, giving you universal unsubscription tools and routing insights. <br> <b>2. Original Integrity:</b> We believe in your right to own your data. We store the original, unaltered version of every incoming email so you can download the authentic `.eml` file whenever you need it. <br> This temporary storage (max 30 days) is our engineered solution to provide world-class gateway features while respecting your digital sovereignty."
         },
         {
             "question": "Can I use this for standard, unrestricted email forwarding?",
