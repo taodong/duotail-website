@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <defs>
+    <g id="envelope">
+      <rect x="0" y="0" width="50" height="36" rx="6" fill="none" stroke="#5fd1c6" stroke-width="4"/>
+      <path d="M4 6 L25 22 L46 6" fill="none" stroke="#5fd1c6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </defs>
+
+  <rect width="500" height="400" fill="#112141"/>
+
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="3" font-weight="700" fill="#00a99d">ALIAS EMAIL GROUP</text>
+
+  <rect x="175" y="58" width="150" height="130" rx="16" fill="none" stroke="#2c3d63" stroke-width="4"/>
+  <g transform="translate(196,69) scale(0.42)">
+    <path d="M128,228.94C65.4,205.16,39.59,150.61,44.92,70c28.69-3,51-15.45,67.88-35.68a19.54,19.54,0,0,1,30.4,0C160.14,54.55,182.39,67,211.08,70,216.4,150.61,190.59,205.16,128,228.94Z" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="129.76 93.59 141.26 113.77 164 118.46 148.36 135.63 150.92 158.71 129.76 149.14 108.61 158.71 111.17 135.63 95.53 118.46 118.27 113.77 129.76 93.59" fill="none" stroke="#00a99d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="250" y="222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#ffffff">&#215;1 Alias Group</text>
+
+  <g transform="translate(65,246)"><use href="#envelope"/></g>
+  <g transform="translate(165,246)"><use href="#envelope"/></g>
+  <g transform="translate(265,246)"><use href="#envelope"/></g>
+  <g transform="translate(365,246)"><use href="#envelope"/></g>
+
+  <text x="250" y="323" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#00a99d">&#8734;</text>
+
+  <text x="250" y="356" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Unlimited Email Addresses</text>
+  <text x="250" y="379" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9aa7c2">Every address is received &amp; replied for free</text>
+</svg>

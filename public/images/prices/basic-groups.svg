@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <defs>
+    <g id="shield">
+      <path d="M128,228.94C65.4,205.16,39.59,150.61,44.92,70c28.69-3,51-15.45,67.88-35.68a19.54,19.54,0,0,1,30.4,0C160.14,54.55,182.39,67,211.08,70,216.4,150.61,190.59,205.16,128,228.94Z" fill="none" stroke="#5fd1c6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="129.76 93.59 141.26 113.77 164 118.46 148.36 135.63 150.92 158.71 129.76 149.14 108.61 158.71 111.17 135.63 95.53 118.46 118.27 113.77 129.76 93.59" fill="none" stroke="#5fd1c6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="envelope">
+      <rect x="0" y="0" width="50" height="36" rx="6" fill="none" stroke="#5fd1c6" stroke-width="4"/>
+      <path d="M4 6 L25 22 L46 6" fill="none" stroke="#5fd1c6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </defs>
+
+  <rect width="500" height="400" fill="#112141"/>
+
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="3" font-weight="700" fill="#00a99d">YOUR EMAIL GROUPS</text>
+
+  <!-- identity card -->
+  <rect x="20" y="46" width="100" height="104" rx="14" fill="none" stroke="#f4623a" stroke-width="4"/>
+  <g transform="translate(45,72) scale(0.5)">
+    <polygon points="12,74 12,54 26,24 40,54 50,12 60,54 74,24 88,54 88,74" fill="none" stroke="#f4623a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="26" cy="24" r="6" fill="#f4623a"/>
+    <circle cx="50" cy="12" r="6" fill="#f4623a"/>
+    <circle cx="74" cy="24" r="6" fill="#f4623a"/>
+  </g>
+
+  <!-- alias cards -->
+  <rect x="140" y="46" width="100" height="104" rx="14" fill="none" stroke="#2c3d63" stroke-width="4"/>
+  <g transform="translate(158,60) scale(0.28)"><use href="#shield"/></g>
+
+  <rect x="260" y="46" width="100" height="104" rx="14" fill="none" stroke="#2c3d63" stroke-width="4"/>
+  <g transform="translate(278,60) scale(0.28)"><use href="#shield"/></g>
+
+  <rect x="380" y="46" width="100" height="104" rx="14" fill="none" stroke="#2c3d63" stroke-width="4"/>
+  <g transform="translate(398,60) scale(0.28)"><use href="#shield"/></g>
+
+  <!-- captions -->
+  <line x1="140" y1="164" x2="480" y2="164" stroke="#2c3d63" stroke-width="3"/>
+  <line x1="140" y1="164" x2="140" y2="158" stroke="#2c3d63" stroke-width="3"/>
+  <line x1="480" y1="164" x2="480" y2="158" stroke="#2c3d63" stroke-width="3"/>
+
+  <text x="70" y="178" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#f4623a">&#215;1 Identity</text>
+  <text x="310" y="182" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#5fd1c6">&#215;3 Alias Groups</text>
+
+  <!-- addresses row -->
+  <g transform="translate(65,214)"><use href="#envelope"/></g>
+  <g transform="translate(165,214)"><use href="#envelope"/></g>
+  <g transform="translate(265,214)"><use href="#envelope"/></g>
+  <g transform="translate(365,214)"><use href="#envelope"/></g>
+
+  <text x="250" y="288" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#00a99d">&#8734;</text>
+
+  <text x="250" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Unlimited Email Addresses per Group</text>
+  <text x="250" y="341" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9aa7c2">Plus 150 new outbound emails every month</text>
+</svg>

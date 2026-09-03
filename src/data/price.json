@@ -2,13 +2,13 @@
     "prices": [
         {
             "title": "Free",
-            "description": "The essential receive-only gateway. Ideal for those who want to monitor trackers and secure their incoming digital identity.<br><br>",
+            "description": "Your first alias email group, on us. Give out addresses instead of your real inbox, and reply to anyone who writes to you — all without revealing who you are.<br><br>",
             "image": "images/prices/free.svg",
-            "demo": "images/prices/free-vault.png",
+            "demo": "images/prices/free-groups.svg",
             "price": "<span class='fs-1'>Free</span>",
             "features": [
-                "<b>Shielded Identity:</b>*1*",
-                "<b>Alias:</b>*Unlimited*",
+                "<b>Alias Email Groups:</b>*1*",
+                "<b>Email Addresses per Group:</b>*Unlimited*",
                 "<b>Received Emails:</b>*Unlimited*",
                 "<b>Replied Emails:</b>*Unlimited*"
             ],
@@ -21,15 +21,15 @@
         },
         {
             "title": "Basic",
-            "description": "Total two-way control. Perfect for individuals who want to send, receive, and manage their entire digital presence with full privacy.",
+            "description": "One identity group for your real name, plus alias groups for everything else. Send, receive, and manage your entire inbox with full privacy.",
             "image": "images/prices/basic.svg",
-            "demo": "images/prices/basic-vault.png",
+            "demo": "images/prices/basic-groups.svg",
             "price": "<span class='fs-1'>$10<span><span class='fs-3'>/mon</spa>",
             "features": [
-                "<b>Prime Identity:</b>*1*",
-                "<b>Shielded Identity:</b>*3*",
-                "<b>New Emails:</b>*150/mon*",
-                "<b>Alias:</b>*Unlimited*",
+                "<b>Identity Email Groups:</b>*1*",
+                "<b>Alias Email Groups:</b>*3*",
+                "<b>Email Addresses per Group:</b>*Unlimited*",
+                "<b>New Emails Sent:</b>*150/mon*",
                 "<b>Received Emails:</b>*Unlimited*",
                 "<b>Replied Emails:</b>*Unlimited*"
             ],
@@ -43,10 +43,11 @@
         {
             "title": "Business",
             "description": "Your infrastructure, your rules. Deploy Duotail to your own cloud and manage your custom domains for ultimate data sovereignty.",
-            "demo": "images/prices/duotail-business.png",
+            "demo": "images/prices/business-gateway.svg",
             "image": "images/prices/org.svg",
-            "price": "<span class='fs-1'>Starts at $500</span><span class='fs-3'>/mon</span>",
+            "price": "<span class='fs-2'>Contact Us</span><br><span class='fs-6'>for a custom quote</span>",
             "features": [
+                "<b>Identity &amp; Alias Groups:</b>*Unlimited*",
                 "<b>Enterprise Domains:</b>*Unlimited*",
                 "<b>Legacy Email Integration:</b>*Supported*",
                 "<b>Account Management:</b>*Admin Console*",

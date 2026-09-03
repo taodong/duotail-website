@@ -2,7 +2,7 @@
     <!-- Heading Section -->
     <PageHeader :id="props.id"
                 title="*Email infrastructure rebuilt for total control*"
-                subtitle="The world's first *Segmented Email Gateway*. Block unwanted mail before it hits your inbox. <br>Experience &quot;Inbox Zen&quot; with a service that treats you like a person, not a product."
+                subtitle="The world's first *Segmented Email Gateway*. Block unwanted mail before it hits your inbox. <br>Turn your inbox into a fortress your next data breach can't touch."
                 logo-url="images/logo/logo-128x128.png"
                 :show-button="true"
                 :buttons="[
