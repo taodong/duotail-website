@@ -47,32 +47,25 @@ const linkList = computed(() => {
 
     const navLinks = currentPageNavLinks?.value || []
 
-    // Find a "login" link by id
-    const loginLink = navLinks.find(link => link.id === "login")
+    // Account links (login, register) lead the menu, in this order
+    const leadingIds = ["login", "register"]
+    const toNavItem = link => ({
+        path: link.route,
+        label: link.name,
+        faIcon: link.faIcon,
+        isActive: false
+    })
 
-    // Map non-login nav links
+    const leadingLinkList = leadingIds
+        .map(id => navLinks.find(link => link.id === id))
+        .filter(link => link)
+        .map(toNavItem)
+
     const otherNavLinkList = navLinks
-        .filter(link => link.id !== "login")
-        .map(link => ({
-            path: link.route,
-            label: link.name,
-            faIcon: link.faIcon,
-            isActive: false
-        }))
+        .filter(link => !leadingIds.includes(link.id))
+        .map(toNavItem)
 
-    // If a home link exists, put it first; then sections; then the rest
-    if (loginLink) {
-        const homeItem = {
-            path: loginLink.route,
-            label: loginLink.name,
-            faIcon: loginLink.faIcon,
-            isActive: false
-        }
-        return [homeItem, ...sectionLinkList, ...otherNavLinkList]
-    }
-
-    // Default order when no home link
-    return [...sectionLinkList, ...otherNavLinkList]
+    return [...leadingLinkList, ...sectionLinkList, ...otherNavLinkList]
 })
 
 onMounted(() => {

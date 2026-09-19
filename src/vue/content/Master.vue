@@ -32,7 +32,7 @@
 
         <FooterBlock :darken="true"
                      :row="false">
-            <FooterCopyright holder="duotail.com"
+            <FooterCopyright holder="Duotail, Inc."
                              url="https://www.duotail.com"
                              />
         </FooterBlock>
