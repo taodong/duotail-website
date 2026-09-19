@@ -28,6 +28,7 @@ const sections = [
 const navLinks = [
     new NavLink('login', 'Login', 'https://my.duotail.com', 'fa-solid fa-user'),
     new NavLink('docs', 'Documentation', 'https://docs.duotail.com', 'fa-solid fa-book'),
+    new NavLink('register', 'Register', 'https://my.duotail.com/register', 'fa-solid fa-user-plus'),
 ]
 
 </script>
