@@ -12,6 +12,7 @@
                      :row="true">
             <FooterColumn title="Credits"
                           faIcon="fa-solid fa-award me-1 d-none d-md-inline"
+                          :lgSize="4"
                           :description="[
                               `<i class='fa-solid fa-champagne-glasses'></i> This website uses Ryan Balieiro's <a href='https://github.com/ryanbalieiro/vue-agency-landing-page-template/' target='_blank'>Foxy - Vue Agency Landing Page</a> template.`,
                               `<i class='fa-solid fa-champagne-glasses'></i> Logo designed by <a href='https://www.artstation.com/massivewei' target='_blank'>Wei Chen</a>.`,
@@ -19,8 +20,22 @@
                           :links="[]"
                           :displayLinksAsButtons="false"/>
 
+            <FooterColumn title="Company"
+                          faIcon="fa-solid fa-building me-2"
+                          :lgSize="4"
+                          :description="[
+                              `Duotail, Inc.`,
+                              `<i class='fa-solid fa-location-dot'></i>&nbsp;700 El Camino Real Suite 120, #1535<br>Menlo Park, CA 94025, United States`,
+                              `<i class='fa-solid fa-phone'></i>&nbsp;<a href='tel:+16502068540'>(650) 206-8540</a>`
+                          ]"
+                          :links="[
+                              {href: '/terms-of-service', label: 'Terms of Service', faIcon: 'fa-solid fa-file-contract'}
+                          ]"
+                          :displayLinksAsButtons="false"/>
+
             <FooterColumn title="Contact Us"
                           faIcon="fa fa-fax me-2"
+                          :lgSize="4"
                           :description="[
                               `For any support or suggestions, reach out to us at:`,
                               `<i class='fa-regular fa-envelope'></i> Support:&nbsp;<a href='mailto:support@duotail.com'>support@duotail.com</a>`,

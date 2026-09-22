@@ -1,5 +1,5 @@
 <template>
-    <div class="duotail-footer-col col-12 col-lg-6">
+    <div class="duotail-footer-col col-12" :class="`col-lg-${props.lgSize}`">
         <!-- Column Title -->
         <h5 class="duotail-footer-col-title">
             <i v-if="props.faIcon"
@@ -41,7 +41,11 @@ const props = defineProps(({
     faIcon: String,
     description: Array,
     links: Array,
-    displayLinksAsButtons: Boolean
+    displayLinksAsButtons: Boolean,
+    lgSize: {
+        type: Number,
+        default: 6
+    }
 }))
 </script>
 
