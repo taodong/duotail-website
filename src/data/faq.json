@@ -2,35 +2,39 @@
     "faqs": [
         {
             "question": "What is a Segmented Email Gateway?",
-            "answer": "Unlike a standard inbox, a segmented gateway acts as a secure airlock for your digital identity. By using a structured address format—combining your Identity, Type, and Route segments—you gain granular control over your mail. Our gateway intercepts messages sent to these segments (e.g., user_shopping@), verifies them against your security permissions, and only then routes them to your vault."
+            "answer": "Think of it as a front desk for your email. Instead of giving everyone your real email address, you give out Duotail addresses made for a specific purpose — for example, one for online shopping (like user_shopping@). Every email sent to these addresses stops at our front desk first. We check whether the sender is someone you've allowed, and only then pass the email on to you."
         },
         {
             "question": "How does Duotail differ from other email forwarding providers?",
-            "answer": "Duotail is active security infrastructure, not a passive forwarder. We differ in two fundamental ways: <br><b>1. Email Handling:</b> While traditional services just pass mail through, our Segmented Gateway uses a whitelist-first architecture to block unverified senders at the protocol level before they even reach your inbox. We also support full bidirectional communication, so you can reply to any email without exposing your true identity. <br><b>2. Privacy Standards:</b> Most forwarders can read your mail. Duotail is a Zero-Knowledge system where your data is **cryptographically isolated**. Because your keys are derived from your secret words in your browser, it is mathematically impossible for us to access your content. \n\nRead our full <a target='_blank' href='https://docs.duotail.com/privacy'>Privacy Practices</a> to see why we are a world leader in respecting user sovereignty."
+            "answer": "Most forwarding services simply pass every email along. Duotail is different in two important ways: <br><b>1. You decide who gets through:</b> Only senders you've approved can reach you — everyone else is stopped before the email ever lands in your inbox. And you can still reply to any email you receive without revealing your real address. <br><b>2. We can't read your email:</b> Many forwarding services can see the contents of your mail. With Duotail, your email is locked with a key that only you hold — it's created from your secret words, right in your own browser. We never have that key, so we simply cannot open your messages. \n\nRead our full <a target='_blank' href='https://docs.duotail.com/privacy'>Privacy Practices</a> to learn more about how we protect you."
         },
         {
             "question": "Is my personal email address exposed when using your service?",
-            "answer": "Never. Your destination email is stored behind an encrypted layer. When you reply through Duotail, the recipient sees only your Duotail Identity. We strip all originating metadata, including your IP address and device headers, ensuring your true address remains invisible."
+            "answer": "Never. Your real email address is kept locked away. When you reply through Duotail, the other person only sees your Duotail address. We also remove hidden details that emails normally carry — such as your location and what device you're using — so nothing points back to you."
         },
         {
             "question": "Do you store my emails?",
-            "answer": "Yes, but only in a Zero-Knowledge state. We use industry-standard cryptographic primitives (X25519 and AES-256) to ensure your data is mathematically inaccessible to everyone - including Duotail and government entities. You can review our full <a target='_blank' href='https://docs.duotail.com/privacy/data-encryption-protocol'>Data Encryption Protocol</a> to see how we secure your digital sovereignty. All encrypted records are automatically purged after 30 days, or you can manually delete them instantly via your dashboard."
+            "answer": "Yes, but only in a locked form that no one else can open — not us, and not anyone who asks us for it. We use the same well-proven security methods trusted by banks and governments. If you're curious about the technical details, see our <a target='_blank' href='https://docs.duotail.com/privacy/data-encryption-protocol'>Data Encryption Protocol</a>. Stored emails are deleted automatically after 30 days, and you can delete them yourself at any time from your dashboard."
         },
         {
             "question": "Why do you keep an encrypted copy of my mail?",
-            "answer": "We store a temporary, encrypted copy to solve two major limitations of traditional email: <br> <b>1. Enhanced Clarity:</b> Standard email headers don't have enough space to show our detailed Segmented Routing data. To fix this, we attach a <a target='_blank' href='https://docs.duotail.com/concepts/email-summary'>Smart Email Summary</a> to your incoming mail, giving you universal unsubscription tools and routing insights. <br> <b>2. Original Integrity:</b> We believe in your right to own your data. We store the original, unaltered version of every incoming email so you can download the authentic `.eml` file whenever you need it. <br> This temporary storage (max 30 days) is our engineered solution to provide world-class gateway features while respecting your digital sovereignty."
+            "answer": "Keeping a short-term, locked copy lets us offer two things regular email can't: <br><b>1. A helpful summary:</b> We add a <a target='_blank' href='https://docs.duotail.com/concepts/email-summary'>Smart Email Summary</a> to each email you receive. It brings to light security details that are often hidden inside an email — such as tracking, the sender's real address behind their display name, and unsafe links — so you can see what you're dealing with at a glance. It also gives you one-click actions to change who can reach you, like unsubscribing from a sender. <br><b>2. The untouched original:</b> Your email is yours. We keep the original, unchanged version of every email so you can download it whenever you need it. <br>These copies are kept for no more than 30 days."
         },
         {
             "question": "Can I use this for standard, unrestricted email forwarding?",
-            "answer": "No. Duotail is built for intentional communication. We are a 'Whitelist-First' gateway. If a sender is not in your permitted circle, the email is rejected. This architecture prevents your inbox from ever becoming a target for automated spam or harvesting bots."
+            "answer": "No. Duotail is designed so that only the people and companies you approve can reach you. If a sender isn't on your approved list, their email is blocked. This keeps spam and junk mail from flooding your inbox."
         },
         {
             "question": "What happens if I discontinue any of my Duotail email addresses?",
-            "answer": "The connection is severed instantly. To protect your privacy, our gateway 'Black-Holes' (silently drops) any incoming mail to non-existent or disabled aliases. By not sending a 'Bounce' notification, we prevent spammers from verifying if your address is active."
+            "answer": "It stops working right away. Any email sent to that address is quietly thrown away. We deliberately don't tell the sender the address is gone — that way, spammers can't use the reply to figure out which addresses are real."
+        },
+        {
+            "question": "What happens to my information if Duotail stops its service?",
+            "answer": "You'll never be left empty-handed. At any time, you can download your complete email profile from your account page. It includes far more than a list of contacts — it records every Duotail address you've created, what each one is for, and exactly who is allowed to reach you through it. Your profile is always available to download, so you can keep an up-to-date copy for your own records whenever you like."
         },
         {
             "question": "Do I need to configure anything in my personal email account?",
-            "answer": "Zero configuration is required on your existing Gmail, Outlook, or private server. You simply provide Duotail with your destination address, and our infrastructure handles the encryption, metadata stripping, and routing automatically."
+            "answer": "No setup needed. Whether you use Gmail, Outlook, or another email provider, just tell Duotail where to send your mail and we take care of everything else — protecting your privacy and delivering your email automatically."
         }
     ]
 }

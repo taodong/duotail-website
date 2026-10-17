@@ -1,8 +1,4 @@
 <template>
-    <div class="waterwheel-banner" role="region" aria-label="Waterwheel documentation notice">
-        <span>Looking for documentation for our Waterwheel test agent?</span>
-        <a href="https://waterwheel.duotail.com" target="_blank" rel="noopener noreferrer">Click here</a>
-    </div>
     <PageWrapper id="duotail-home-page"
                  :no-padding="true"
                  :sections="sections"
@@ -28,46 +24,8 @@ const sections = [
 const navLinks = [
     new NavLink('login', 'Login', 'https://my.duotail.com', 'fa-solid fa-user'),
     new NavLink('docs', 'Documentation', 'https://docs.duotail.com', 'fa-solid fa-book'),
+    new NavLink('waterwheel', 'Waterwheel', 'https://waterwheel.duotail.com', 'fa-solid fa-water'),
     new NavLink('register', 'Register', 'https://my.duotail.com/register', 'fa-solid fa-user-plus'),
 ]
 
 </script>
-
-<style lang="scss" scoped>
-.waterwheel-banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.4rem;
-    width: 100%;
-    margin-top: 4.75rem;
-    padding: 0.7rem 1rem;
-    background: linear-gradient(90deg, #f4efe5 0%, #fff8ed 100%);
-    border-bottom: 1px solid #eadfce;
-    color: #2e2a24;
-    font-size: 0.95rem;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-
-    a {
-        color: #9f4b00;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    a:hover,
-    a:focus-visible {
-        color: #7c3900;
-    }
-}
-
-@media (max-width: 640px) {
-    .waterwheel-banner {
-        flex-direction: column;
-        gap: 0.15rem;
-        font-size: 0.9rem;
-        margin-top: 4.25rem;
-    }
-}
-</style>

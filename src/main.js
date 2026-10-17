@@ -4,9 +4,6 @@ import {createRouter, createWebHistory} from "vue-router"
 import App from "/src/vue/stack/App.vue"
 import HomePage from "/src/vue/content/pages/HomePage.vue"
 import LicensePage from "/src/vue/content/pages/LicensePage.vue"
-import PolicyPage from "/src/vue/content/pages/PolicyPage.vue"
-import KnowledgePage from "./vue/content/pages/KnowledgePage.vue"
-import ConstructionPage from "./vue/content/pages/ConstructionPage.vue"
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,21 +22,6 @@ const router = createRouter({
         },
 
         {
-            path: "/privacy-policy",
-            name: "policy",
-            component: PolicyPage,
-            props: {
-                label: "Privacy Policy",
-                faIcon: "fa-solid fa-hammer",
-                inPageNavbar: false,
-                shouldAlwaysPreload: false,
-                breadcrumbs: [
-                    "/"
-                ]
-            }
-        },
-
-        {
             path: "/terms-of-service",
             name: "license",
             component: LicensePage,
@@ -52,41 +34,6 @@ const router = createRouter({
                     "/"
                 ]
             }
-        },
-
-        {
-            path: "/knowledge",
-            name: "knowledge",
-            component: KnowledgePage,
-            props: {
-                label: "Knowledge Base",
-                faIcon: "fa-solid fa-book-open",
-                inPageNavbar: false,
-                shouldAlwaysPreload: false,
-                breadcrumbs: [
-                    "/"
-                ]
-            }
-        },
-
-        {
-            path: "/construction",
-            name: "construction",
-            component: ConstructionPage,
-            props: {
-                label: "Under Construction",
-                faIcon: "fa-solid fa-person-digging",
-                inPageNavbar: false,
-                shouldAlwaysPreload: true,
-
-                breadcrumbs: [
-                    "/"
-                ]
-            },
-            meta: {
-                hideInNavbar: true
-            }
-
         },
 
         {

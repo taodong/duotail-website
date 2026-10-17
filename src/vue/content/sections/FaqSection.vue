@@ -4,7 +4,7 @@
                  :id="props.id">
         <!-- Title -->
         <PageSectionHeader title="Questions and *Answers*"
-                           subtitle="How our product is tailered for your needs"/>
+                           subtitle="How our product is tailored for your needs"/>
 
         <!-- Content -->
         <PageSectionContent>

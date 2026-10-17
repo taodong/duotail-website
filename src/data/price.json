@@ -31,7 +31,8 @@
                 "<b>Email Addresses per Group:</b>*Unlimited*",
                 "<b>New Emails Sent:</b>*150/mon*",
                 "<b>Received Emails:</b>*Unlimited*",
-                "<b>Replied Emails:</b>*Unlimited*"
+                "<b>Replied Emails:</b>*Unlimited*",
+                "<b>Quarantine:</b>*Safe View &amp; Release*"
             ],
             "button": {
                 "type": "url",
