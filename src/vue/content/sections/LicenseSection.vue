@@ -552,7 +552,6 @@
                     Attn: Tao Dong<br>
                     700 El Camino Real Suite 120, #1535<br>
                     Menlo Park, California 94025<br>
-                    Telephone: 650-206-8540<br>
                     Email: contact@duotail.com
                 </p>
             </article>

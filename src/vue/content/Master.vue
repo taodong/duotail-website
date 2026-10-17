@@ -25,8 +25,7 @@
                           :lgSize="4"
                           :description="[
                               `Duotail, Inc.`,
-                              `<i class='fa-solid fa-location-dot'></i>&nbsp;700 El Camino Real Suite 120, #1535<br>Menlo Park, CA 94025, United States`,
-                              `<i class='fa-solid fa-phone'></i>&nbsp;<a href='tel:+16502068540'>(650) 206-8540</a>`
+                              `<i class='fa-solid fa-location-dot'></i>&nbsp;700 El Camino Real Suite 120, #1535<br>Menlo Park, CA 94025, United States`
                           ]"
                           :links="[
                               {href: '/terms-of-service', label: 'Terms of Service', faIcon: 'fa-solid fa-file-contract'}
