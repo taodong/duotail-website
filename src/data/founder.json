@@ -1,0 +1,24 @@
+{
+    "name": "Tao Dong",
+    "role": "Founder of Duotail",
+    "paragraphs": [
+        "Hi, I'm <b>Tao Dong</b>, the founder of Duotail.",
+        "I'm a software engineer and a dad. I built Duotail so the next generation can have something mine never did: an inbox they truly own, where only the people they choose can reach them, and that stays worry-free for life.",
+        "I've spent 20 years building software, more than 10 of them on email products. I shared the thinking behind Duotail in my essay, <i>How to Secure Every Email Inbox on the Internet</i>."
+    ],
+    "email": "tao.dong@duotail.com",
+    "emailTitle": "Don't email me, I'll email you.",
+    "emailNote": "If I ever write to you, it will be from <b>tao.dong@duotail.com</b>. It sends, but it doesn't take cold emails: like every Duotail inbox, mine only lets in people I've chosen. Want to say hello? Connect with me on LinkedIn.",
+    "links": [
+        {
+            "label": "Connect on LinkedIn",
+            "icon": "fa-brands fa-linkedin",
+            "url": "https://www.linkedin.com/in/taodong/"
+        },
+        {
+            "label": "Read the Essay",
+            "icon": "fa-brands fa-medium",
+            "url": "https://medium.com/@tao.dong_spr/how-to-secure-every-email-inbox-on-the-internet-f72391b81a81"
+        }
+    ]
+}

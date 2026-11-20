@@ -1,0 +1,24 @@
+{
+    "steps": [
+        {
+            "title": "1. Get your Duotail inbox",
+            "detail": "Sign up free and get an address such as <b>a_happy.rhino@duotail.com</b>. It only accepts your contacts, so it never fills up with strangers.",
+            "icon": "fa-solid fa-inbox"
+        },
+        {
+            "title": "2. Create an address for each purpose",
+            "detail": "Make one for shopping, one for newsletters, one for your business card, like <b>a_happy.rhino_shopping@duotail.com</b>. Give these out instead of your real address. Only the senders you allow get through.",
+            "icon": "fa-solid fa-tags"
+        },
+        {
+            "title": "3. Keep reading where you already do",
+            "detail": "Allowed emails are forwarded to Gmail, Outlook or any inbox you already use, so there is no new mailbox to check. Look back over the last 30 days on the History page any time.",
+            "icon": "fa-solid fa-plug-circle-check"
+        }
+    ],
+    "callout": {
+        "icon": "fa-solid fa-ear-listen",
+        "title": "Expecting an email from someone new? Let us know first.",
+        "detail": "Most email services take in whatever arrives and leave the sorting to you. Duotail only listens when you ask. Before you sign up somewhere new with an address you already use, click <b>Allow Incoming Emails</b>, then choose the address and how long to wait. The next new sender gets in and is remembered, then the door closes by itself. It takes a few clicks, and it's the one step we can't take for you, because only you know who you're expecting."
+    }
+}

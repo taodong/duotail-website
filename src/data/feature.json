@@ -1,29 +1,29 @@
 {
   "features": [
     {
-      "title": "The Vaulted Inbox",
-      "detail": "Your primary email address is shielded behind a cryptographic wall. Only senders on your approved whitelist can reach you. Everyone else is stopped at the gateway.",
-      "icon": "fa-solid fa-vault"
+      "title": "Strangers Stay Out",
+      "detail": "Your main address works like \"don't email me, I'll email you\". Only your contacts get in. Post it on a website or a business card, and strangers are still turned away before they reach your inbox. Most spam and scam emails never arrive. <br><br>Each purpose address keeps its own list of allowed senders. If one ever leaks, switch it off or delete it, and every other address keeps working as before.",
+      "icon": "fa-solid fa-door-closed"
     },
     {
-      "title": "Logic-Based Segmented Aliases",
-      "detail": "Stop using random strings of gibberish. Create memorable aliases by adding a purpose segment to your identity, such as yourname_shopping. Unlimited, intuitive, and entirely under your control.",
+      "title": "Know Who Is Writing, and Why",
+      "detail": "No random strings to forget. Name each address after its purpose, like <b>a_happy.rhino_shopping@</b>, and every email tells you who sent it and why. Use <b>Permission Enforced</b> for shopping and newsletters, and <b>Cold Reach Allowed</b> for a business card.",
       "icon": "fa-solid fa-tags"
     },
     {
-      "title": "Universal Integration",
-      "detail": "Duotail is non-intrusive by design. Our Segmented Gateway works seamlessly with any standard inbox, including Gmail, Outlook, and Apple Mail, providing a high-security airlock for your existing digital identity.",
-      "icon": "fa-solid fa-plug-circle-check"
+      "title": "Be Believed",
+      "detail": "<b>a_harry.potter@</b> is an anonymous Harry Potter. <b>harry.potter@</b> is a verified one. With an identity inbox, your address itself shows people it's really you, in every inbox, with no login needed.",
+      "icon": "fa-solid fa-id-badge"
     },
     {
-      "title": "On-the-Fly Decryption",
-      "detail": "We don't store your decryption keys. Data is encrypted at rest and keys are generated only when you need them, making your messages virtually data-breach proof. <br> <a target='_blank' href='https://docs.duotail.com/privacy/data-encryption-protocol'>Learn more about our encryption protocol</a>",
+      "title": "Control From Every Email",
+      "detail": "Every forwarded email comes with a short summary: the real sender, plus warnings for tracking pixels, insecure links, or a \"business\" writing from free Gmail. Allow or stop a sender in one click. Forged senders never reach you.",
+      "icon": "fa-solid fa-hand-pointer"
+    },
+    {
+      "title": "Your Mail, Your Key. Leave Any Time.",
+      "detail": "Emails we keep for you are encrypted with secret words only you know. There is no master key, not even ours, and they are deleted after 30 days. Download your full configuration or delete your account whenever you like. <br> <a target='_blank' href='https://docs.duotail.com/privacy/data-encryption-protocol'>How we encrypt your mail</a> · <a target='_blank' href='https://docs.duotail.com/privacy#-exit-policy--sovereignty'>Our exit policy</a>",
       "icon": "fa-solid fa-key"
-    },
-    {
-      "title": "Zero-Lock-In Freedom",
-      "detail": "We believe in your right to leave. Download your entire email configuration at any time or deactivate your account with a single click. No questions asked. <br> <a target='_blank' href='https://docs.duotail.com/privacy#-exit-policy--sovereignty'>Learn more about Zero-Lock-In</a>",
-      "icon": "fa-solid fa-door-open"
     }
   ]
 }

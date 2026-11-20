@@ -1,0 +1,23 @@
+{
+    "without": {
+        "title": "Without Duotail",
+        "icon": "fa-solid fa-layer-group",
+        "items": [
+            "A new Gmail account every time the old one gets buried",
+            "Rummaging through Promotions, Updates and Social tabs",
+            "Thousands of unread emails, most of them expired deals",
+            "Every sign-up adds to the pile, and it never shrinks"
+        ]
+    },
+    "with": {
+        "title": "With *Duotail*",
+        "icon": "fa-solid fa-inbox",
+        "items": [
+            "One inbox for life, behind an address you can publish",
+            "Only senders you allowed get through. The rest never land",
+            "Every email shows which address it came to, so you know why it's there",
+            "Mute a noisy sender in one click, unmute when you want them back"
+        ]
+    },
+    "closing": "An inbox that stays lean is an inbox you never have to abandon."
+}

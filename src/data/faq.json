@@ -1,40 +1,48 @@
 {
     "faqs": [
         {
-            "question": "What is a Segmented Email Gateway?",
-            "answer": "Think of it as a front desk for your email. Instead of giving everyone your real email address, you give out Duotail addresses made for a specific purpose — for example, one for online shopping (like user_shopping@). Every email sent to these addresses stops at our front desk first. We check whether the sender is someone you've allowed, and only then pass the email on to you."
+            "question": "What is Duotail?",
+            "answer": "Think of it as a front desk for your email. You get one address you can share anywhere, plus extra addresses made for a specific purpose, such as one for online shopping. Every email sent to them stops at our front desk first. Only senders you have allowed are passed on to your own inbox. Everyone else is turned away."
         },
         {
-            "question": "How does Duotail differ from other email forwarding providers?",
-            "answer": "Most forwarding services simply pass every email along. Duotail is different in two important ways: <br><b>1. You decide who gets through:</b> Only senders you've approved can reach you — everyone else is stopped before the email ever lands in your inbox. And you can still reply to any email you receive without revealing your real address. <br><b>2. We can't read your email:</b> Many forwarding services can see the contents of your mail. With Duotail, your email is locked with a key that only you hold — it's created from your secret words, right in your own browser. We never have that key, so we simply cannot open your messages. \n\nRead our full <a target='_blank' href='https://docs.duotail.com/privacy'>Privacy Practices</a> to learn more about how we protect you."
+            "question": "How is Duotail different from other email forwarding or alias services?",
+            "answer": "Most forwarding services pass every email along until you block it, and you end up juggling more and more addresses. Duotail works the other way round: <br><b>1. Closed by default:</b> Only senders you approve get through. You can still reply to any email you receive without revealing your real address. <br><b>2. Addresses with a purpose:</b> Each address says what it is for, so you always know who is writing and why, and a few addresses are enough for everything. <br><b>3. We can't read your stored email:</b> Emails we keep for you are locked with a key made from your secret words, right in your own browser. We never have that key, so we cannot open your messages. \n\nRead our full <a target='_blank' href='https://docs.duotail.com/privacy'>Privacy Practices</a> to learn more."
         },
         {
-            "question": "Is my personal email address exposed when using your service?",
-            "answer": "Never. Your real email address is kept locked away. When you reply through Duotail, the other person only sees your Duotail address. We also remove hidden details that emails normally carry — such as your location and what device you're using — so nothing points back to you."
+            "question": "Do I have to do anything to keep my inbox protected?",
+            "answer": "A little, and we keep it simple. Duotail doesn't guess who you want to hear from. It waits for you to say so. <br><b>1. New addresses just work:</b> A brand-new address lets in its first sender automatically, so a fresh sign-up goes through on its own. <br><b>2. Reusing an address? Open the door first:</b> Before you sign up somewhere new with an address you already use, click <b>Allow Incoming Emails</b> on your dashboard. It takes a few clicks, and the door closes again by itself. <br><b>3. Adjust as you go:</b> Every email we forward has one-click links to let a sender in or keep them out. <br>Forgot to open the door? You'll still know who knocked. Every stopped email is listed on your History page with its sender. On the free plan, open the door and ask the sender to send it again. On a paid plan, the email is kept for you: read it, then send it to your inbox with one click."
+        },
+        {
+            "question": "Is my personal email address exposed when using Duotail?",
+            "answer": "Never. Your real email address is kept locked away. When you reply through Duotail, even with Reply All, the other people only see your Duotail address. We also remove hidden details that emails normally carry, such as your location and the device you use, so nothing points back to you."
+        },
+        {
+            "question": "What is the difference between an a_ address and an identity address?",
+            "answer": "Every account comes with an alias inbox that starts with <b>a_</b>, such as <b>a_harry.potter@duotail.com</b>. It tells people the sender is <i>an</i> anonymous Harry Potter, not <i>the</i> Harry Potter. On the Basic plan you can add an identity inbox with no prefix, such as <b>harry.potter@duotail.com</b>, after we verify your real identity. Recipients can then see straight from the address that it's really you. <a target='_blank' href='https://docs.duotail.com/concepts/channel'>Learn more about inboxes</a>"
         },
         {
             "question": "Do you store my emails?",
-            "answer": "Yes, but only in a locked form that no one else can open — not us, and not anyone who asks us for it. We use the same well-proven security methods trusted by banks and governments. If you're curious about the technical details, see our <a target='_blank' href='https://docs.duotail.com/privacy/data-encryption-protocol'>Data Encryption Protocol</a>. Stored emails are deleted automatically after 30 days, and you can delete them yourself at any time from your dashboard."
+            "answer": "Yes, but only in a locked form that no one else can open: not us, and not anyone who asks us for it. We use the same well-proven security methods trusted by banks and governments. If you're curious about the technical details, see our <a target='_blank' href='https://docs.duotail.com/privacy/data-encryption-protocol'>Data Encryption Protocol</a>. Stored emails are deleted automatically after 30 days, and you can delete them yourself at any time."
         },
         {
             "question": "Why do you keep an encrypted copy of my mail?",
-            "answer": "Keeping a short-term, locked copy lets us offer two things regular email can't: <br><b>1. A helpful summary:</b> We add a <a target='_blank' href='https://docs.duotail.com/concepts/email-summary'>Smart Email Summary</a> to each email you receive. It brings to light security details that are often hidden inside an email — such as tracking, the sender's real address behind their display name, and unsafe links — so you can see what you're dealing with at a glance. It also gives you one-click actions to change who can reach you, like unsubscribing from a sender. <br><b>2. The untouched original:</b> Your email is yours. We keep the original, unchanged version of every email so you can download it whenever you need it. <br>These copies are kept for no more than 30 days."
+            "answer": "Keeping a short-term, locked copy lets us offer two things regular email can't: <br><b>1. A helpful summary:</b> We add an <a target='_blank' href='https://docs.duotail.com/concepts/email-summary'>Email Summary</a> to each email you receive. It shows the real sender and points out warning signs that are usually hidden, such as tracking pixels and insecure links. It also gives you one-click actions to choose who can reach you. <br><b>2. The untouched original:</b> Your email is yours. We keep the original, unchanged version so you can download it whenever you need it. <br>These copies are kept for no more than 30 days."
         },
         {
-            "question": "Can I use this for standard, unrestricted email forwarding?",
-            "answer": "No. Duotail is designed so that only the people and companies you approve can reach you. If a sender isn't on your approved list, their email is blocked. This keeps spam and junk mail from flooding your inbox."
+            "question": "Can I use Duotail for standard, unrestricted email forwarding?",
+            "answer": "No. Duotail is designed so that only the people and companies you approve can reach you. If a sender isn't on your approved list, their email is stopped. This keeps spam and junk mail out of your inbox."
         },
         {
-            "question": "What happens if I discontinue any of my Duotail email addresses?",
-            "answer": "It stops working right away. Any email sent to that address is quietly thrown away. We deliberately don't tell the sender the address is gone — that way, spammers can't use the reply to figure out which addresses are real."
+            "question": "What happens if I discontinue one of my Duotail email addresses?",
+            "answer": "It stops working right away. Any email sent to that address is quietly thrown away. We deliberately don't tell the sender the address is gone, so spammers can't use the reply to figure out which addresses are real."
         },
         {
-            "question": "What happens to my information if Duotail stops its service?",
-            "answer": "You'll never be left empty-handed. At any time, you can download your complete email profile from your account page. It includes far more than a list of contacts — it records every Duotail address you've created, what each one is for, and exactly who is allowed to reach you through it. Your profile is always available to download, so you can keep an up-to-date copy for your own records whenever you like."
+            "question": "Can I leave, and what happens if Duotail stops its service?",
+            "answer": "You'll never be left empty-handed. At any time, you can download your complete email configuration from your Account page. It records every Duotail address you've created, what each one is for, and exactly who is allowed to reach you through it, so you always know where your address is used. You can also delete your account yourself at any time. <a target='_blank' href='https://docs.duotail.com/privacy#-exit-policy--sovereignty'>Read our exit policy</a>"
         },
         {
             "question": "Do I need to configure anything in my personal email account?",
-            "answer": "No setup needed. Whether you use Gmail, Outlook, or another email provider, just tell Duotail where to send your mail and we take care of everything else — protecting your privacy and delivering your email automatically."
+            "answer": "Almost nothing. Whether you use Gmail, Outlook or another provider, just tell Duotail where to deliver your mail and we take care of the rest. Duotail is a new service, so before you register, add <b>duotail.com</b> to your safe senders list to keep our emails out of your junk folder: <a target='_blank' href='https://docs.duotail.com/tutorials/white-list-domain#whitelist-in-gmail'>Gmail</a> · <a target='_blank' href='https://docs.duotail.com/tutorials/white-list-domain#whitelist-in-outlook'>Outlook</a>"
         }
     ]
 }

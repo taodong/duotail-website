@@ -1,7 +1,7 @@
 <template>
     <PageSection :id="props.id">
-        <PageSectionHeader title="The *System*"
-                           subtitle="A permission-based gateway designed for total identity control"/>
+        <PageSectionHeader title="What you *gain*"
+                           subtitle="An address you can publish, an inbox only you control"/>
 
         <PageSectionContent>
             <article class="duotail-system-overview">

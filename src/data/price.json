@@ -2,15 +2,16 @@
     "prices": [
         {
             "title": "Free",
-            "description": "Your first alias email group, on us. Give out addresses instead of your real inbox, and reply to anyone who writes to you — all without revealing who you are.<br><br>",
+            "description": "Your first inbox, on us. Hand out purpose addresses instead of your real one, and reply to anyone who writes to you without revealing who you are.",
             "image": "images/prices/free.svg",
             "demo": "images/prices/free-groups.svg",
             "price": "<span class='fs-1'>Free</span>",
             "features": [
-                "<b>Alias Email Groups:</b>*1*",
-                "<b>Email Addresses per Group:</b>*Unlimited*",
+                "<b>Alias Inboxes:</b>*1*",
+                "<b>Email Addresses:</b>*Unlimited*",
                 "<b>Received Emails:</b>*Unlimited*",
-                "<b>Replied Emails:</b>*Unlimited*"
+                "<b>Replies:</b>*Unlimited*",
+                "<b>Email Summary &amp; One-Click Control:</b>*Included*"
             ],
             "button": {
                 "type": "url",
@@ -21,45 +22,40 @@
         },
         {
             "title": "Basic",
-            "description": "One identity group for your real name, plus alias groups for everything else. Send, receive, and manage your entire inbox with full privacy.",
+            "description": "A verified identity inbox people can trust, plus room for everything else. Emails you didn't allow aren't lost. They wait safely until you decide to let them in.",
             "image": "images/prices/basic.svg",
             "demo": "images/prices/basic-groups.svg",
-            "price": "<span class='fs-1'>$10<span><span class='fs-3'>/mon</spa>",
+            "price": "<span class='fs-1'>$10</span><span class='fs-3'>/mo</span>",
             "features": [
-                "<b>Identity Email Groups:</b>*1*",
-                "<b>Alias Email Groups:</b>*3*",
-                "<b>Email Addresses per Group:</b>*Unlimited*",
-                "<b>New Emails Sent:</b>*150/mon*",
-                "<b>Received Emails:</b>*Unlimited*",
-                "<b>Replied Emails:</b>*Unlimited*",
-                "<b>Quarantine:</b>*Safe View &amp; Release*"
+                "<b>Identity Inboxes:</b>*1*",
+                "<b>Alias Inboxes:</b>*3*",
+                "<b>Email Addresses:</b>*Unlimited*",
+                "<b>New Emails Sent:</b>*150/mo*",
+                "<b>Group Emails:</b>*Up to 50 contacts*",
+                "<b>Stopped Emails:</b>*Saved to read &amp; release*"
             ],
             "button": {
                 "type": "url",
-                "text": "Join Waitlist",
-                "link": "https://docs.google.com/forms/d/e/1FAIpQLSdgIvbEPP2FiP7RTeZ6AIeDurNg2T6B-E9PZ13t-hZZ5jHobg/viewform?usp=sharing&ouid=106518390095581064622",
+                "text": "Upgrade",
+                "link": "https://my.duotail.com",
                 "notice": ""
             }
         },
         {
-            "title": "Business",
-            "description": "Your infrastructure, your rules. Deploy Duotail to your own cloud and manage your custom domains for ultimate data sovereignty.",
-            "demo": "images/prices/business-gateway.svg",
+            "title": "Add-ons",
+            "description": "Coming next. Extend your address as your needs grow.",
             "image": "images/prices/org.svg",
-            "price": "<span class='fs-2'>Contact Us</span><br><span class='fs-6'>for a custom quote</span>",
+            "price": "<span class='fs-1'>+$10</span><span class='fs-3'>/mo</span><br><span class='fs-6'>per add-on, coming soon</span>",
             "features": [
-                "<b>Identity &amp; Alias Groups:</b>*Unlimited*",
-                "<b>Enterprise Domains:</b>*Unlimited*",
-                "<b>Legacy Email Integration:</b>*Supported*",
-                "<b>Account Management:</b>*Admin Console*",
-                "<b>Outbound Volume:</b>*Uncapped*",
-                "<b>Collaborative Routing:</b>*Enabled*"
+                "<b>AI-Agent Access (MCP):</b>*Coming soon*",
+                "<b>High-Volume Sending:</b>*Above 150/mo*",
+                "<b>Business Identity Verification:</b>*Coming soon*"
             ],
             "button": {
                 "type": "notification",
-                "text": "Get Quote",
+                "text": "Coming Soon",
                 "link": "",
-                "notice": "Please contact support@duotail.com to get more information."
+                "notice": "Add-ons are coming soon. Contact support@duotail.com to be notified."
             }
         }
     ]

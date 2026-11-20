@@ -1,13 +1,13 @@
 <template>
     <!-- Heading Section -->
     <PageHeader :id="props.id"
-                title="*Email infrastructure rebuilt for total control*"
-                subtitle="The world's first *Segmented Email Gateway*. Block unwanted mail before it hits your inbox. <br>Turn your inbox into a fortress your next data breach can't touch."
+                title="*One email address. For life.*"
+                subtitle="Hand out your address anywhere. Only the senders *you allow* reach your inbox.<br>Keep using Gmail, Outlook or any inbox you already have."
                 logo-url="images/logo/logo-128x128.png"
                 :show-button="true"
                 :buttons="[
-                    { label: 'Start Your Free Gateway', icon: 'fa-solid fa-arrow-right', url: 'https://my.duotail.com/register' },
-                    { label: 'Find Out More', icon: 'fa-solid fa-search', url: 'https://docs.duotail.com' }
+                    { label: 'Get Started Free', icon: 'fa-solid fa-arrow-right', url: 'https://my.duotail.com/register' },
+                    { label: 'How It Works', icon: 'fa-solid fa-book-open', url: 'https://docs.duotail.com/welcome' }
                 ]"
                 @click="_onHeaderClick"/>
 
