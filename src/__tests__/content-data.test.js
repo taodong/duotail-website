@@ -52,7 +52,9 @@ describe('home page content data', () => {
 
   it('has founder copy, contact email and https links', () => {
     expect(founderData.paragraphs.every(nonBlank)).toBe(true)
-    expect(founderData.email).toBe('tao.dong@duotail.com')
+    expect(founderData.email).toBeUndefined()
+    expect(founderData.feedbackEmail).toBe('tao.dong_feedback@duotail.com')
+    expect(founderData.emailNote).toContain(founderData.feedbackEmail)
     expect(founderData.links.map(l => l.url)).toEqual([
       'https://www.linkedin.com/in/taodong/',
       'https://medium.com/@tao.dong_spr/how-to-secure-every-email-inbox-on-the-internet-f72391b81a81'
